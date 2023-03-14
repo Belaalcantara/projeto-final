@@ -20,3 +20,8 @@ nav
     position: absolute;
     transition: all .5s;
 }
+
+input[type="menu"]:checked~nav
+{
+    transform: translateX(350px);
+}

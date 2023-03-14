@@ -3,18 +3,21 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:oblique ;
     text-align: center;
+    color:rgb(15, 53, 86);
 }
 #fraseimagem{
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:oblique ;
     text-align: center;
+    color:rgb(125, 192, 223) ;
 }
 #p1{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style:oblique ;
     text-align: center;
+    color: rgb(15, 53, 86);
 }
 .sect1{
     text-align: center;
@@ -25,8 +28,8 @@
    margin: 8px;
    width: 98%;
    padding: 0px;
-   background-color: black;
-   color: white;
+   background-color:rgb(4, 29, 51);
+   color: rgb(125, 192, 223);
    font-style: oblique;
 }
 h2{

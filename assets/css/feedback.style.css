@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: auto;
+    width: 40%;
+    padding: 50px;
+}
+body{
+    background-color: blue;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

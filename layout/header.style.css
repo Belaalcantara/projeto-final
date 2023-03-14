@@ -16,9 +16,12 @@ nav
     background-color: black;
     width: 350px;
     height: 100%;
-    left: -350px;
-    position: absolute;
-    transition: all .5s;
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
 }
 
 input[type="menu"]:checked~nav

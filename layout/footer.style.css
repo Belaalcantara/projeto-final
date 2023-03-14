@@ -1,0 +1,23 @@
+footer{
+    background-color: rgb(8, 8, 67);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+p{
+    color: rgb(168, 168, 207);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    background-color: rgb(2, 2, 52);
+}

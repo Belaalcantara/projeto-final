@@ -1,0 +1,63 @@
+body {
+    background-color: aliceblue;
+}
+
+#pai1 {
+    display: flex;
+}
+
+.div-noticias-1 {
+    background-color: #91CCD9;
+    border-radius: 10px;
+    border-left: #0E3659;
+    -webkit-box-shadow: 10px 12px 24px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 12px 24px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 12px 24px 8px rgba(0, 0, 0, 0.75);
+}
+
+#img-natureza {
+    width: 300px;
+    border-radius: 6px;
+}
+
+#img-educacao {
+    width: 300px;
+    border-radius: 6px;
+}
+
+#img-fisiculturismo {
+    width: 300px;
+    border-radius: 6px;
+}
+
+#pai2 {
+
+
+}
+
+#esporte {
+    background-color: #91CCD9;
+    background-color: #91CCD9;
+    border-radius: 10px;
+    border-left: #0E3659;
+    -webkit-box-shadow: 10px 12px 24px 8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 12px 24px 8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 12px 24px 8px rgba(0, 0, 0, 0.75);
+    padding-top: 20px;
+    
+}
+
+#img-fut {
+    width: 300px;
+    border-radius: 6px;
+}
+
+#img-volei {
+    width: 300px;
+    border-radius: 6px;
+}
+
+#img-hand {
+    width: 300px;
+    border-radius: 6px;
+}

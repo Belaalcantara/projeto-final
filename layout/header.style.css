@@ -1,35 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 ul {
     list-style: none;
 }
 
 img {
-    width: 25px;
+    width: 40px;
 }
 
 input[type="menu"]
 {
     display: none;
-}
-
-nav
-{ 
-    background-color: rgb(8,8,67);
-    width: 350px;
-    height: 100%;
-}
-
-a{
-    display: block;
-    padding: 20px 2px;
-    color: white;
-}
-
-a:hover {
-    background-color: rgb(168,168,207);
-    color: black;
-}
-
-input[type="menu"]:checked~nav
-{
-    transform: translateX(350px);
 }

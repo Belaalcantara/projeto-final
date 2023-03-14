@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+#banner{
+    background-color: black;
+    width:70%;
+    height: 40px;
+}
+#img-banner{
+    width: 500px;
+}

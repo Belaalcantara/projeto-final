@@ -1,11 +1,19 @@
 body{
     background-color: rgb(255, 255, 255);
+}#div-principal{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    display: flex;
 }
-#banner{
-    background-color: black;
-    width:70%;
-    height: 40px;
+
+#h2-mariele{
+    color: rgb(179, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 0%;
+    margin-bottom: 0%;
 }
-#img-banner{
+
+#img-mariele{
     width: 500px;
 }

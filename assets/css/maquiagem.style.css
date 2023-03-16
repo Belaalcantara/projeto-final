@@ -44,15 +44,16 @@ h2 {
 .sect2 {
     color: rgb(15, 53, 86);
     text-align: center;
-
+    margin: 3px;
 }
 
 #p1 {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     padding: 5px;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
 }
 
 h3 {
@@ -81,6 +82,6 @@ h3 {
     border: solid 4px;
     border-radius: 5px;
     border-color: rgb(15, 53, 86);
-    margin: 8px;
+    margin: 20px;
     padding: 2px;
 }

@@ -2,11 +2,14 @@ body{
     text-align: center;
     background-color: black;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial;
     font-size: 13px;
-    
+   
 }
 h1{
     color: black;
     background: white;
+}
+h2{
+    padding: 30px;
 }

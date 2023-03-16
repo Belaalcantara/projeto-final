@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color:#ffffff;
+    background-color:#8692bd;
 
 }
 main{
@@ -30,13 +30,13 @@ main{
     text-align: 50px;
 }
 .article1{
-    background-color:#b1d3e8;
+    background-color:#f7f7f7;
     width: 100%;
     height: 103%;
     margin-top: 3%;
 }
 #div1{
-    background-color: #b1d3e8;
+    background-color: #ffffff;
     color: rgb(255, 255, 255);
     margin: 7px;
     font-size: 10px;
@@ -47,7 +47,7 @@ main{
     margin-top: 3%;
 }
 #div2{
-    background-color: #b1d3e8;
+    background-color: #ffffff;
     color: white;
     margin: 7px;
     font-size: 10px;
@@ -89,4 +89,8 @@ p{
 
 #div4 {
     width: 30%;
+}
+#sobrenos{
+    text-align: center;
+    margin: 0;
 }

@@ -1,100 +1,123 @@
 body {
-    background-image: url(../images/banner2.jpg);
-    background-repeat:no-repeat;
-    padding: 0;
+    background-image: url(../images/última.jpg);
+    margin: auto;
+    padding:15px;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Lucida Handwriting;
+}
+video{
+    width: 70%;
+    height: 90%;
+    text-align:center;
+}
+.cobrakai{
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+   display:flex ;
+
+}
+#section1{
+    text-align: justify;
+    font-family: Lucida Handwriting;
+    display: flex;
+    width: 70%;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.section3{
+    display: flex;
+}
+.section2{
+    display: flex;
+    padding: 10px;
+    text-align: justify;
     margin: 0;
-    height: 100vh;
-    justify-self: center;
-    align-items: center;
 }
-.section{
+.personagens{
+    color: white;
+    text-align: center;
+}
+.elenco{
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+.mary{
+    display: flex;
+    text-align: center;
+}
+.secjacob{
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+    margin-left: 20px;
+}
+.secmary{
+    display: flex;
+    padding: 10px;
+    text-align: justify;
     margin: 0;
-    padding: 0;
-    height: 100vh;
+}
+.secralph{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+    text-align: justify;
+    margin: 0;
 }
-.slider{
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;    
-}
-.slide{
-    width: 500%;
-    height: 500px;
+.secwilliam{
     display: flex;
+    padding: 10px;
+    text-align: justify;
+    margin: 0;
 }
-.slide input{
-    display: none;
-}
-.st{
-    width: 20%;
-    transition: 2s;
-}
-.st img{
-    width: 800px;
-    height: 500px;
-}
-.nav-m{
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    justify-content: center;
+.secpeyton{
     display: flex;
+    padding: 10px;
+    text-align: justify;
+    margin: 0;
 }
-.m-btn{
-    border: 2px solid rgb(198, 196, 196);
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-.m-btn:not(:last-child){
-    margin-right: 30px;
-}
-.m-btn:hover{
-    background-color: aliceblue;
-}
-#radio1:checked ~.first{
-    margin-left: 0;
-}
-#radio2:checked ~.first{
-    margin-left: -20%;
-}
-#radio3:checked ~.first{
-    margin-left: -40%;
-}
-#radio4:checked ~.first{
-    margin-left: -60%;
-}
-.nav-auto{
-    position: absolute;
-    width: 800px;
-    margin-top: 460px;
+
+#horizontal {
     display: flex;
-    justify-content: center;
+    padding: 35px;
+    margin: 10px;
+    margin-left: 10px;
 }
-.nav-auto div{
-    border: 2px solid rgb(214, 198, 228);
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
+#elenco2{
+    display: flex;
+    padding: 35px;
+    margin: 10px;
+    margin-left: 10px;
 }
-.nav-auto div:not(:last-child){
-    margin-left: 30px;
-    justify-content: center;
+
+.jacob {
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
+
 }
-#radio1:checked ~.nav-auto .ab1{
-    background-color: red;
+.william{
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
+    
 }
-#radio2:checked ~.nav-auto .ab2{
-    background-color: red;
+.peyton{
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
 }
-#radio3:checked ~.nav-auto .ab3{
-    background-color: red;
-}
-#radio4:checked ~.nav-auto .ab4{
-    background-color:red;
+.ralph{
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
 }

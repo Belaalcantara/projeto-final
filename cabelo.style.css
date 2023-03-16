@@ -1,0 +1,57 @@
+#cabelos{
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color:rgb(15, 53, 86);
+    border: solid 4px;
+}
+#fraseimagem{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color:rgb(125, 192, 223) ;
+}
+#p1{
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(15, 53, 86);
+}
+.sect1{
+    text-align: center;
+}
+.sect2{
+   text-align: center;
+   font-size: 23px;
+   margin: 8px;
+   width: 98%;
+   padding: 0px;
+   color: rgb(125, 192, 223);
+}
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(125, 192, 223);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#p3{
+    color:rgb(15, 53, 86) ;
+}
+#cabelos2{
+  border: solid 5px;
+  font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 5%;
+}
+#cabelos3{
+    border: solid 5px;
+    color: rgb(15, 53, 86);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 5%;
+}

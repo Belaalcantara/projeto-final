@@ -5,12 +5,13 @@ body{
     color: rgb(15, 53, 86);
     font-size: 50px;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
     color: rgb(125, 192, 223);
     text-align: center;
     font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .sect1{
     text-align: center;
@@ -20,11 +21,13 @@ h2{
     color:rgb(15, 53, 86) ;
     font-size: 25px;
     margin-left: 7%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #p1{
     text-align: center;
     font-size: 18px;
     padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .sect2{
     text-align: center;
@@ -35,4 +38,9 @@ h2{
 }
 #p2{
     font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fotos{
+    border-radius: 100%;
+    margin: 20px;
 }

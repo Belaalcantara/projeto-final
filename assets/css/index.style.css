@@ -1,44 +1,92 @@
-body{
+body {
     background-color: rgb(255, 255, 255);
 }
-.div-principal{
+
+#div-principal {
     display: flex;
 }
 
-.div-grande{
-    background-color: rgb(255, 255, 255);
+.div-grande {
     width: 70%;
- 
-   margin-right:10px;
+    margin-right: 10px;
 }
-.h2-divgrande{
+
+.h5-divgrande {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(2, 2, 129);
     width: 70%;
 }
 
-#h2-mariele{
+#h2-mariele {
     color: rgb(179, 0, 0);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     padding: 0%;
     margin-bottom: 0%;
 }
 
-#img-mariele{
-    width: 500px;
+#img-mariele {
+    width: 550px;
 }
-#img-msc{
+
+#img-msc {
     width: 100px;
 }
 
 .img_text {
     display: flex;
 }
-#img-paulistao{
+
+#img-paulistao {
     width: 100px;
 }
-#img-comotreidragao{
-    width:100px;
+
+#img-comotreidragao {
+    width: 200px;
+    height: 110px;
+    margin-right:2px;
+}
+
+.div-lateral {
+    width: 30px;
+    display: flex;
+}
+
+#avo {
+    display: flex;
+
+}
+
+#pai1 {
+    width: 70%;
+}
+
+#mae {
+    width: 35%;
+    border-left: 4px solid rgb(2, 71, 100);
+    padding: 5px;
+    background-color: rgb(224, 223, 223);
+    
+}
+
+.tio {
+    display: flex;
+}
+
+#img-sesi {
+    width: 200px;
+    margin-top: 0%;
+}
+
+#img-netflix {
+    width: 200px;
+    margin-top: 0%;
+}
+#img-redesocial {
+    width: 190px;
+    margin-top: 0%;
+}
+#img-booktok{
+    width: 180px;
 }

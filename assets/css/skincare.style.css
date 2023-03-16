@@ -10,3 +10,54 @@ body{
 .sect1{
     text-align: center;
 }
+h2{
+    color: rgb(125, 192, 223);
+    text-align: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.sect2{
+    text-align: center;
+}
+#skin2{
+    text-align: left;
+    color:rgb(15, 53, 86) ;
+    font-size: 25px;
+    margin-left: 7%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p1{
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p2{
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p3{
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+h4{
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#h2final{
+    text-align: left;
+    color:rgb(15, 53, 86) ;
+    font-size: 25px;
+    margin-left: 7%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sect3{
+    background-color: rgb(205, 217, 227);
+}

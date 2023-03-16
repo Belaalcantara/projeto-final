@@ -8,3 +8,36 @@ body{
     text-align: center;
     border: solid 4px;
 }
+h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(125, 192, 223);
+}
+.sect1{
+    text-align: center;
+}
+#make2{
+    border-left: solid 5px;
+  border-color:  rgb(15, 53, 86);
+  font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin: 5%;
+}
+.sect2{
+    color:rgb(15, 53, 86) ;
+    text-align: center;
+}
+#p1{
+    font-size: 22px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#p2{
+    font-size: 18px ;
+}

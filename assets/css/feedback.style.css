@@ -7,26 +7,20 @@ form{
     padding: 50px;
 }
 body{
-    background-color: rgb(168,168,207);
+   background-color: blue;
     text-align: center;
     color: white;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     
-}
-section{
-    background-color: black;
-   
-    width: 50%;
-    border-radius: 25px;
-    margin: auto;
     
 }
-div.single-input .input{
-    width: 100%;
-    padding: 5px;
-    color: rgb(150,150,150);
-    border: 0;
-    border-bottom: 2px solid rgb(200,200,200);
-    outline: 0;
+section{
+   background-color: black;
+    width: 50%;
+    border-radius: 30px;
+    margin: auto; 
+    display: block;
+   
+    
 }

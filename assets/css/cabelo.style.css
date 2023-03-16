@@ -4,6 +4,7 @@
     text-align: center;
     color:rgb(15, 53, 86);
     border: solid 4px;
+    border-radius: 5px;
 }
 #fraseimagem{
     font-size: 22px;
@@ -76,4 +77,5 @@ a{
 }
 h3{
     border: solid 4px;
+    border-radius: 5px;
 }

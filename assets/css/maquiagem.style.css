@@ -7,6 +7,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     border: solid 4px;
+    border-radius: 5px;
 }
 h2{
     font-size: 20px;
@@ -37,12 +38,14 @@ h2{
 .sect2{
     color:rgb(15, 53, 86) ;
     text-align: center;
+    
 }
 #p1{
     font-size: 24px;
     text-align: center;
     padding: 5px;
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3{
     font-size: 27px;
@@ -51,6 +54,21 @@ h3{
     color: rgb(125, 192, 223);
 }
 #p2{
-    font-size: 19px ;
-    color: black;
+    font-size: 17px ;
+    color:black ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#imagem1{
+    border-radius: 10px;
+}
+#imagem2{
+    border-radius: 10px;
+}
+#section{
+   border: solid 4px;
+    border-radius: 5px;
+    border-color: rgb(15, 53, 86);
+    margin: 8px;
+    padding: 2px;
 }

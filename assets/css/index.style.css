@@ -1,11 +1,44 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-#banner{
-    background-color: black;
-    width:70%;
-    height: 40px;
+.div-principal{
+    display: flex;
 }
-#img-banner{
+
+.div-grande{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+ 
+   margin-right:10px;
+}
+.h2-divgrande{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 2, 129);
+    width: 70%;
+}
+
+#h2-mariele{
+    color: rgb(179, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+#img-mariele{
     width: 500px;
+}
+#img-msc{
+    width: 100px;
+}
+
+.img_text {
+    display: flex;
+}
+#img-paulistao{
+    width: 100px;
+}
+#img-comotreidragao{
+    width:100px;
 }

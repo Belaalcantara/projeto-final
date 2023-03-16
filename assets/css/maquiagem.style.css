@@ -1,0 +1,10 @@
+body{
+    background-color: white;
+}
+#make{
+    color: rgb(15, 53, 86);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: solid 4px;
+}

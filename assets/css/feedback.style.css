@@ -16,8 +16,17 @@ body{
 }
 section{
     background-color: black;
-    width: 30%;
+   
+    width: 50%;
     border-radius: 25px;
     margin: auto;
     
+}
+div.single-input .input{
+    width: 100%;
+    padding: 5px;
+    color: rgb(150,150,150);
+    border: 0;
+    border-bottom: 2px solid rgb(200,200,200);
+    outline: 0;
 }

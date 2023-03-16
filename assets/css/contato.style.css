@@ -9,6 +9,14 @@ form{
 body{
     background-color: rgb(168,168,207);
     text-align: center;
+    color: white;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
+}
+section{
+    background-color: black;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
+    margin: auto;
 }

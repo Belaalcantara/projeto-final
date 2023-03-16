@@ -8,6 +8,14 @@ body{
 .div-grande{
     background-color: rgb(255, 255, 255);
     width: 70%;
+ 
+   margin-right:10px;
+}
+.h2-divgrande{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 2, 129);
+    width: 70%;
 }
 
 #h2-mariele{
@@ -27,4 +35,10 @@ body{
 
 .img_text {
     display: flex;
+}
+#img-paulistao{
+    width: 100px;
+}
+#img-comotreidragao{
+    width:100px;
 }

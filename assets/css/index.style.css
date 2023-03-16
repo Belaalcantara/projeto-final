@@ -11,11 +11,12 @@ body {
     margin-right: 10px;
 }
 
-.h5-divgrande {
-    font-size: 20px;
+.h3-divgrande {
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(2, 2, 129);
+    color: #070776;
     width: 70%;
+    margin-bottom: 2%;
 }
 
 #h2-mariele {

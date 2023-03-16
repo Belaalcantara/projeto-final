@@ -4,13 +4,18 @@
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 #fraseimagem {
     color: rgb(125, 192, 223);
+    text-align: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 #p1 {
     color: rgb(15, 53, 86);
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sect1 {

@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>sigma notícias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="header.style.css">
 </head>
 <body>
-    <input type="checkbox" id="menu">
-    <label for="menu">
-        <img src="../assets/images/menu.png">
-    </label>
+    <div class="menu">
+        <img src="../assets/images/logo.png">
     <nav>
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">SOBRE NÓS</a></li>
-            <li><a href="">CATEGORIAS</a></li>
-            <li><a href="">QUIZ</a></li>
-            <li><a href="">CONTATO</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SOBRE NÓS</a></li>
+            <li><a href="#">CATEGORIAS <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown">
+                  <ul>
+                    <li><a href="#">ESPORTES</a></li>
+                    <li><a href="#">ECONOMIA</a></li>
+                    <li><a href="#">BELEZA</a></li>
+                    <li><a href="#">SÉRIES</a></li>
+                    <li><a href="#">MÚSICA</a></li>  
+                    <li><a href="#">VESTIBULAR</a></li>
+                </ul>
+                </div>
+            <li><a href="#">QUIZ</a></li>
+            <li><a href="#">CONTATO</a></li>
         </ul>
     </nav>
+    </div>
 </body>
 </html>

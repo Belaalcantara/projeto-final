@@ -12,7 +12,7 @@
     color:rgb(125, 192, 223) ;
 }
 #p1{
-    font-size: 22px;
+    font-size: 24px;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     color: rgb(15, 53, 86);
@@ -29,7 +29,7 @@
    color: rgb(125, 192, 223);
 }
 body{
-    background-color: white;
+    background-color:white;
 }
 a{
     text-decoration: none;
@@ -38,20 +38,42 @@ a{
     margin-right: 15px;
 }
 #p3{
-    color:rgb(15, 53, 86) ;
+    color:rgb(0, 0, 0) ;
 }
 #cabelos2{
-  border: solid 5px;
+  border-left: solid 5px;
+  border-color:  rgb(15, 53, 86);
   font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: left;
     margin: 5%;
 }
 #cabelos3{
-    border: solid 5px;
+    border-left: solid 5px;
+    border-color:rgb(125, 192, 223) ;
     color: rgb(15, 53, 86);
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: left;
     margin: 5%;
+}
+.sect3{
+    text-align: center;
+   font-size: 23px;
+   margin: 8px;
+   width: 98%;
+   padding: 0px;
+   color: rgb(125, 192, 223);
+}
+.sect4{
+    text-align: center;
+   font-size: 30px;
+   margin: 8px;
+   width: 98%;
+   padding: 5px;
+   color: rgb(15, 53, 86);
+   font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    border: solid 4px;
 }

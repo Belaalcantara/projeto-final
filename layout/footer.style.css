@@ -1,22 +1,69 @@
-footer{
-    background-color: rgb(3,3,30);
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    margin: 0;
+    background-color: white;
 }
-a{
+footer{
+    background-color: rgb(3, 3, 34);
+    height: auto;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0;
+    padding: 10px;
+}
+.socials a{
     text-decoration: none;
     color: white;
-    font-size: 15px;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover{
+    color: rgb(138, 233, 233);
+}
+.imagem{
+    text-align: center;
 }
 p{
     color: rgb(168, 168, 207);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Sans MS;
 }
-a:hover{
-    background-color: rgb(2, 2, 52);
+h3{
+    font-family: Sans MS;
 }

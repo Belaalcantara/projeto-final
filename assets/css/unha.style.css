@@ -2,13 +2,13 @@ body{
     background-color: white;
 }
 #unha{
-    color: rgb(15, 53, 86);
+    color: rgb(0, 0, 0);
     font-size: 50px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
-    color: rgb(125, 192, 223);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,14 +18,14 @@ h2{
 }
 #unha2{
     text-align: left;
-    color:rgb(15, 53, 86) ;
+    color:rgb(0, 0, 0) ;
     font-size: 25px;
     margin-left: 7%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #p1{
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     padding: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -34,7 +34,7 @@ h2{
 }
 #unha3{
     text-align: center;
-    color: rgb(15, 53, 86);
+    color: rgb(0, 0, 0);
 }
 #p2{
     font-size: 23px;

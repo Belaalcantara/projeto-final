@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Arial;
-    text-align: center;
+   
     background-color: blue;
     transition: 0.5s  ease-in-out;
 
@@ -15,7 +15,6 @@ body{
     align-items: center;
     justify-content: center;
     border-bottom: 2px solid cornflowerblue;
-    text-align: center;
     transition: 0.5s ease-in-out;
 }
 form{

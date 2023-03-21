@@ -58,7 +58,7 @@ p {
 
 
 #img-fut-comeco {
-    width: 210px;
+    width: 250px;
 
 
 }
@@ -126,7 +126,11 @@ p {
 }
 
 #img-fisiculturismo {
-    border-radius: 3px;
+  margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    
+    
 }
 
 #tia {
@@ -143,7 +147,7 @@ p {
 }
 
 #img-cabelo {
-    width: 200px;
+    width: 155px;
 }
 
 .hr {
@@ -177,15 +181,19 @@ p {
 
 
 .imgOlhoandCounter{
-   margin-left: 200px;
    display: flex;
    align-items: center;
    color: rgb(160, 160, 160);
    padding-top: 0%;
+  
 }
 
 .containerImgandLink p, a{
     text-align: left;
     text-decoration: none;
     color: rgb(129, 129, 129);
+}
+.positionOlho{
+    display: flex;
+    justify-content: space-between;
 }

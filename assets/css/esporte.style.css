@@ -42,9 +42,12 @@ h1 {
 
   aside {
     width: 30%;
-    height: 100px;
-    padding-left: 15px;
+    padding-top: 0;
+    padding-left: 10px;
     margin-left: 15px;
     float: right;
-    background-color: lightgray
+    background-color: lightgray;
+    position: fixed;
   }
+
+

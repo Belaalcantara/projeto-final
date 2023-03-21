@@ -115,8 +115,8 @@ p {
 
 }
 
-#img-booktok {
-    width: 180px;
+#img-bolsonaro {
+    width: 255px;
     border-radius: 3px;
 }
 
@@ -194,5 +194,5 @@ p {
     justify-content: space-between;
 }
 .p-recado{
-   margin:0px
+   margin: 0px;
 }

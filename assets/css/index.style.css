@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
+    margin: 0%;
 }
 
 #div-principal {
@@ -47,15 +48,18 @@ p {
 }
 
 #img-msc {
-    width: 200px;
+    width: 170px;
+    padding-top: 15px;
 }
 
 .img_text {
     display: flex;
 }
 
-#img-paulistao {
-    width: 170px;
+
+#img-fut-comeco {
+    width: 210px;
+
 
 }
 
@@ -89,7 +93,9 @@ p {
 }
 
 .tio {
+    text-align:center;
     display: flex;
+ 
 
 }
 
@@ -136,7 +142,7 @@ p {
     width: 370px;
 }
 
-#img-bbb {
+#img-cabelo {
     width: 200px;
 }
 
@@ -155,4 +161,31 @@ p {
     font-size: 15px;
 
 
+}
+.olhinho{
+    display: flex;
+   
+    margin-left: 100px;
+}
+
+.containerTitleandCounter{
+    display: flex;
+}
+
+
+   
+
+
+.imgOlhoandCounter{
+   margin-left: 200px;
+   display: flex;
+   align-items: center;
+   color: rgb(160, 160, 160);
+   padding-top: 0%;
+}
+
+.containerImgandLink p, a{
+    text-align: left;
+    text-decoration: none;
+    color: rgb(129, 129, 129);
 }

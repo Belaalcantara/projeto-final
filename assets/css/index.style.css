@@ -64,8 +64,8 @@ p {
 }
 
 #img-comotreidragao {
-    width: 200px;
-    height: 110px;
+    width: 255px;
+    height: 140px;
     margin-right: 2px;
 }
 
@@ -100,17 +100,17 @@ p {
 }
 
 #img-sesi {
-    width: 200px;
+    width: 255px;
     margin-top: 0%;
 }
 
 #img-netflix {
-    width: 200px;
+    width: 255px;
     margin-top: 0%;
 }
 
-#img-redesocial {
-    width: 190px;
+#img-drone {
+    width: 255px;
     margin-top: 0%;
 
 }

@@ -176,10 +176,6 @@ p {
     display: flex;
 }
 
-
-   
-
-
 .imgOlhoandCounter{
    display: flex;
    align-items: center;
@@ -196,4 +192,7 @@ p {
 .positionOlho{
     display: flex;
     justify-content: space-between;
+}
+.p-recado{
+   margin:0px
 }

@@ -1,0 +1,10 @@
+body{
+    background-color: white;
+}
+#cards{
+   display: flex;
+}
+.card_beleza{
+    margin: 30px;
+    padding: 10px;
+}

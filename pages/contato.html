@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Entre em contato</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="../assets/css/contato.style.css">
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="../assets/css/feedback.style.css">
         <iframe src=""></iframe>
-        <h1>Entre em Contato</h1>
-</head>
-<body>
-    <section>
+        
+    </head>
+    <body>
+      
+        <section>
+            <h1>Entre em Contato!</h1>
+            <p>
 
-    
-    <form action="sucesso.html">
-        <label>
-            <h2>Nome</h2>
-</label>
-<input type="text">
-<label>
+            </p>
+          
+        <form action="">
+          
+            <div class="single-input">
+                <p>
+
+                </p>
+                <h2>Nome</h2>
+                <input required type="text" name="" id="nome" class="input">
+</div>
+<div class="single-input">
     <h2>Email</h2>
-    </label>
-    <input type="email">
-    <label>
-        <h2>Deixe um Comentário</h2>
-    </label>
-    <input type="text">
+    <input required type="text" name="" id="email" class="input" type="email">
+</div>
+<div class="single-input">
+    <h2>Comentário</h2>
+    <input required type="text" name="" id="comentário" class="input"
     <p>
 
     </p>
     <p>
 
     </p>
-    <input type="submit">
+</div>
+<div class="feedback">
+    <input type="hidden" name="oculto" value="22">
+    <!--
+        <input type="datetime" name="data-hora">
+    -->
+    <input class="bt" type="submit" name="enviar" value="Enviar Mensagem">
+    <input class="bt" type="resert" name="Limpar" value="Limpar Formulário">
+    <p>
+
+    </p>
+    <!--
+        <button>Enviar Mensagem</button>
+    -->
+</div>
+<button class="btn btn-green">Enviar</button>
 </section>
-    </form>
-    <iframe src=""></iframe>
-</body>
+        </form>
+        <iframe src=""></iframe>
+    </body>
 </html>

@@ -179,10 +179,11 @@ p {
    margin-left: 100px;
    display: flex;
    align-items: center;
+   color: rgb(160, 160, 160);
 }
 
 .containerImgandLink p, a{
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: rgb(129, 129, 129);
 }

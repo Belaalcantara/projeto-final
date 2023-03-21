@@ -54,8 +54,9 @@ p {
     display: flex;
 }
 
-#img-paulistao {
-    width: 170px;
+#img-fut-comeco {
+    width: 210px;
+ padding-top: 20px;
 
 }
 

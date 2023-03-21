@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
+    margin: 0%;
 }
 
 #div-principal {
@@ -53,6 +54,8 @@ p {
 
 .img_text {
     display: flex;
+}
+.img_text_aside {
 }
 
 #img-fut-comeco {
@@ -157,4 +160,29 @@ p {
     font-size: 15px;
 
 
+}
+.olhinho{
+    display: flex;
+   
+    margin-left: 100px;
+}
+
+.containerTitleandCounter{
+    display: flex;
+}
+
+.containerTitleandCounter h3{
+   
+}
+
+.imgOlhoandCounter{
+   margin-left: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.containerImgandLink p, a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
 }

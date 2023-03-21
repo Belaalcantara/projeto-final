@@ -54,6 +54,13 @@ p {
 
 .img_text {
     display: flex;
+    
+}
+
+.img_text2{
+    display: inline;
+    text-align: left;
+    
 }
 
 
@@ -196,3 +203,6 @@ p {
 .p-recado{
    margin: 0px;
 }
+
+
+   

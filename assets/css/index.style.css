@@ -55,8 +55,7 @@ p {
 .img_text {
     display: flex;
 }
-.img_text_aside {
-}
+
 
 #img-fut-comeco {
     width: 210px;
@@ -94,7 +93,9 @@ p {
 }
 
 .tio {
+    text-align:center;
     display: flex;
+ 
 
 }
 
@@ -171,15 +172,16 @@ p {
     display: flex;
 }
 
-.containerTitleandCounter h3{
+
    
-}
+
 
 .imgOlhoandCounter{
-   margin-left: 100px;
+   margin-left: 200px;
    display: flex;
    align-items: center;
    color: rgb(160, 160, 160);
+   padding-top: 0%;
 }
 
 .containerImgandLink p, a{

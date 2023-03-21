@@ -65,7 +65,7 @@
 }
 body{
     text-align: center;
-    background-image: url(../images/obx\ fundo\ 2.webp);
+    background-color: aliceblue;
     margin: 0;
     background-size: cover;
     text-align: center;
@@ -80,7 +80,7 @@ h1{
     text-align: center;
     font-size: 40px;
     font-family: Lucida Handwriting;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0;
     padding: 10px;
     

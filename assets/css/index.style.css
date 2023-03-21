@@ -41,8 +41,8 @@ p {
 }
 
 #img-mariele {
-    width: 750px;
-    height: 300px;
+    width: 799px;
+    height: 390px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -54,18 +54,25 @@ p {
 
 .img_text {
     display: flex;
+    
+}
+
+.img_text2{
+    display: inline;
+    text-align: left;
+    
 }
 
 
 #img-fut-comeco {
-    width: 210px;
+    width: 250px;
 
 
 }
 
 #img-comotreidragao {
-    width: 200px;
-    height: 110px;
+    width: 255px;
+    height: 140px;
     margin-right: 2px;
 }
 
@@ -100,23 +107,23 @@ p {
 }
 
 #img-sesi {
-    width: 200px;
+    width: 255px;
     margin-top: 0%;
 }
 
 #img-netflix {
-    width: 200px;
+    width: 255px;
     margin-top: 0%;
 }
 
-#img-redesocial {
-    width: 190px;
+#img-drone {
+    width: 255px;
     margin-top: 0%;
 
 }
 
-#img-booktok {
-    width: 180px;
+#img-bolsonaro {
+    width: 255px;
     border-radius: 3px;
 }
 
@@ -126,7 +133,11 @@ p {
 }
 
 #img-fisiculturismo {
-    border-radius: 3px;
+  margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    
+    
 }
 
 #tia {
@@ -143,7 +154,7 @@ p {
 }
 
 #img-cabelo {
-    width: 200px;
+    width: 155px;
 }
 
 .hr {
@@ -172,16 +183,12 @@ p {
     display: flex;
 }
 
-
-   
-
-
 .imgOlhoandCounter{
-   margin-left: 200px;
    display: flex;
    align-items: center;
    color: rgb(160, 160, 160);
    padding-top: 0%;
+  
 }
 
 .containerImgandLink p, a{
@@ -189,3 +196,13 @@ p {
     text-decoration: none;
     color: rgb(129, 129, 129);
 }
+.positionOlho{
+    display: flex;
+    justify-content: space-between;
+}
+.p-recado{
+   margin: 0px;
+}
+
+
+   

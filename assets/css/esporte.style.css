@@ -39,15 +39,3 @@ h1 {
   #jogos {
     margin-left: 50px;
   }
-
-  aside {
-    width: 30%;
-    padding-top: 0;
-    padding-left: 10px;
-    margin-left: 15px;
-    float: right;
-    background-color: lightgray;
-    position: fixed;
-  }
-
-

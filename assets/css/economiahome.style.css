@@ -13,7 +13,7 @@ body {
 }
 .p-text {
     text-align: justify;
-   padding: 0px;
+ 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;}
 
@@ -42,4 +42,8 @@ body {
         color: #760707;
         width: 70%;
         margin-top:20px;
+    }
+    #bisavo{
+        display: flex;
+        padding-left: 15 px;
     }

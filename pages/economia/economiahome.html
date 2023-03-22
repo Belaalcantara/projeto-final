@@ -9,6 +9,7 @@
 
 <body>
     <article id="avo">
+        <!--banner da bagina home de noticais-->
         <h1 id="titulos">VEJA MAIS SOBRE ECONOMIA!</h1>
 
         <div id="div-principal">
@@ -18,10 +19,25 @@
                     width="900pxpx" height="300px">
                 <div id="moedadoBR">
                 </div>
-            </section>
-      <article id="article-pai">
 
-      </article>
+        </div>
+        </section>
+        <!--começo das noticias gerais sobre cada topico -->
+        <div class="div-grande">
+            <h3 class="h3-divgrande">COMO FUNCIONA A VALORIZAÇÃO DA MOEDA.</h3>
+            <div class="imgOlhoandCounter">
+                <img class="imgolho"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATkAAAChCAMAAACLfThZAAAAgVBMVEX///9AQEA8PDw5OTkvLy8zMzMsLCw3NzcyMjIqKir8/Pzz8/P4+Pjn5+e1tbXv7+9RUVFISEiZmZnZ2dm7u7vGxsZbW1vh4eFlZWXp6elDQ0Nubm7S0tJfX19qampWVlaJiYl/f3+rq6uioqKPj494eHiNjY3Ly8u3t7eWlpYhISGOTFrjAAAN+UlEQVR4nO1d2Xbiyg6NazYGD3jEZvAAIZz//8AL6U5OBsCSygaSc/dDr9UPwS65SsOWSnp6ehhMZ3GatN222a1XYRhFpVNGURRmRbWr562fLPPg3q/4YJjmaXuoQukKYaTWnDHmfMTx/1xraYRQblnUXbL8vwQneTLfhUoIqb9I6yKOQjTC5au63f9H5TeJ/XolhTluMZjIvglQqKia/8fE5+3nBVeSJrOPOO4/FTZtPrn3im4BLz2sjNDWQnsH41KVuzb+1dKbxF2hh5TaO47Si5pkce8FjgMvbcpRpPYuPWOyLr73ModG4Fdc8PGk9hdMi6je/55zG/hrLUfcbJ/BhfM7hDdNKmluJrZ/hbe898ItsW/4rcX2Jrxont979WQEXXkD3XYRWq2SH3lq08rV9xPbK5gR9U8ztl7niLuc0q/gbvaTNl7cqHtvt3/BBJ//EBc5LdQdtds5aNU8/qGd+uFjHNPP4KpI7y2aqziqt/s4If1gInx5WIXnzbm8t4CugImond5bRufgzfUjy+0V0ukeTnbH/TaIOWWca2mMUCf8/dcYIzW350FPeDTZTe3P6Wt+QUWr3XPnp/s4nwWBd0QQ5PFyn7RdvctKRSbfP8mufRx91zIruTFt1Cklk+be9ed4cdrVK62MHc0nS/82culDEhn6KrhUcj1PMcH5KWFWGCEtnEYTJaOJA4w93X87Ss1pfCKjkfsNU2TWj4nszjTUrFLEl+dCVP7M7um5XwlBNExMVZZPt8F065KODNOi3A70zZdbanaDu8/3MrO+JH1vPTTpmHchbedpeRdTEWeC8LIjcbX5PCKRqCK8ubrzahd/RJjhzWhvuqwZIWZm7u629RUvDH88uMj8HofNDtOkIJxartsxX+oz8gJ/UKW+BUeWPzO8p3IzD2XSGaxKYSLqbnQoPAJByFR9Cyu7DLEhAxMbZC7Ai5NjoLpeZav1rjn4aY5aWLpGk9K6HJ34nGyxX5SpYo95wuylCbl6JUdOeOVORFkc9ggdGe+wsmNqZEuxjJCxPVNrjBKJD6E5W1d3dJ75uoUvLm+wsuN6TOeuRsZax/2GkJvXhlfDASZlBT9UeNmJaqxtF0c4m88Uxmjltek3i1yUcHZttkMGh9y8UOTSiwPS9xURQuvCVyllB/7VfI195/XwHmce4jScxqgNHHUgOZxdW4Y415PLoZm7FqfhuDog/JBEI11/sYHHvomD++SqGdK38yrUlzuaeEQ9glcp1NL+PKEDf5nJHOe5a2e4kGLvoB5tQowDt2ckju8fxPIWO5QTytQBLaLzOKD2BEdo8CM6/IY7QaAe8rTHaWmzGqKGZ7FCRVsCR1I3FJLv+Hkq5CqORxaz7YYwFKnGHCbtoJ44LajpRrzzgCR4VGOZld2iDpNqUCvyMmL6RZF0uM9RmyC04a4D1EnVDo5wmG6IKVMzJy5nh9kHTNAjCpzZc7GO0IooOL4iryhB6R7yiUWZPa6xOrWilvAYi8A8WGMWpUNKTna6w2hUUWF19pZaU+HakZA+JknGJP5hMwwxwlx0FiRx8TJ7hXxGr+UzFigjq7bIn08xXjfBDC2ogmMh9lHf0WEYFFOg1PccszBV418+o9bSiCGqQWIHcaC4A0/aTTAqjlHc7Y6q5NQw3CNKiTMFXWEQIr6I3hA2wYIWcx2ftsM/7DxaTDTmwpRdDG2AcQLlpB4dEqInx6LhuLMcsz/MGvDgBMFhMkHKF+2pW04MWSaA0kk66j1aB4Rt4CVtJVTzgKSWeoFx9ZnsIR0x38EUtHRHStxyfE163BXsMRyAuuazeivE2VdUl3RF9UiGT4cGGwTNdWXBswjzCagp8SVxy6lRSj9qxIk11QUGYIm4pcE4Oc3R0AyrxIZBQLQI0enN2W2PCbh0SCbqAxpFwjZ04VzHHlFxdzaewMheVnS/yqcR6INEXeeBUVJMfDOxmAQXzf39izXJPtAcRyCmK4yd+PImNUJtKxu3KiBFrMNFXeeBsRPuRy5/UiGELqwSaglFcswZuxoV4xSL+v3Ppgg3jhlUBeY3kCyrC4hVJkur0Azjnss378QLERqSWYaOIUHNmT71MInbiv/TWL3YEnEHSmev0dMCYVp4ZFk2EBDc4Ou5rkne7hwlubXfkjsI7yQ8OnY5glTioW1hHoUmkRejrknu70r1dtNVWL5cgDl7Tv60gxsHvbJW1C3em7uU65q9NJH6eD9Y2FZvYfS9aZ4mYM3DB3ANarSB0PWZn5klTfjtVrW0Z9p30NfTJ94mgJ5vMcAlQbQfzMKvUfYiqUNzrphQE4smPiAH+kx89fpWOVT3lPblx2jTqj59rkX6HEpzgZngte3bzYBbjm/+qq09kAfm1lH3JAIK7A0f6MQg3Yb6ktROYNiiuq8IgMbyg6H0gaLTtu82RRIlbxWGXnrYyL5mGyyzezmo2mLRh7M3Bx5YU9u9nId0SsrjqZju5xsDaVFi6dB5JVBw5ScvqQaqRsskSoCrCub75TxT0A4HdoUTXkQSHLwmi0yiUyRXckxfiO9mGIEp0A1mztcoagKtA7RKB2BPKwo2e26aQQX3nWGdQh0GYxHzYy0EChZ6Diw4do6aDoAa0uF0j3hSWkimd1nkfKwHrFg+t+NOyIG5r0t/D5EchWSCghwdQmm2ywuPgeE4i8g542JEyWnipSMoR3Jtx0CTyHS2iZhsBUHSGo8EQH7yu1X9iBQchxH5pm5EE0Hj+aHE7nXBwQufeUbznVKLLn99UBS+egG0i7xXQ0FD2L88CxazER26iPBGUEYcop9aaPRPugmDJkvgYATTugTWvMIUezeq6MCsKxoaH1JD1boGqvU5MLjUFFaHWFYCgELHNmByDayZoKKjmInxFB1azUEPl0SwkmDREZwTcsVm37vUyBeBXt01qAw4lOkkuMSEvCEI38uzrgN6D14gKx7BokMn/WcjeXS4wwq+B6/QCTWo6E7JbhyqUY4rLmW4gF4juVqQfgHQuih0jQ61qP86DIa/icEpZhKNCxZd3x2LrxiDaUIxTAmwIpppYr0FuHIYWYrqj6DpMPeawJ4DWhG94wV6kwlZ/wrMMiGA2HLg617apnALfGX8QwEo5GcH13TwkhewbZBrq1Yv0LoJx6CeQ75RfQFn653OLwh6+cGq/v6EGHq9BOXYxbQ2VpcfDj1X0IDLce2vNULTOg4zCEP0PCg1DG1mMwG30QPfP78GKE1//E5wr3ECzVBCAG0MlpfA72VdRv4XU3DfKQWPjWNq140z0LCz6kN7bVy4F0fApII6YDIDP7MbzL66IEd8Cu5mZXYDTrUC323iDKzsdgOpOlh1FbwX8mCtIv8AfrkH7BRPqD3UPkOCfOAO2taB1H3lKl7Ahwvc2wpcx3INugA8Cd6JiUfDj5pZgi+ccAfIACwQl14uQEP4/Bdw0zlQWxI0ZvDOKFBVMbPddTrrX2kAb1fsDqvi3jFdgzkOk8E2PebK2RlIQJuuBNxYg5nxpmtswU4YEzCvGNXm4ytEv/uI2HC0/oZQQBOUp2UVsDi2IYewACvewsdGWnfB7UEMbyrDgduuJQwOO/287rVDiFluzK5wHAIvgyf9BEzbYecnvEL1DnKYbOGtufQIzsh3IJoFMKCxmmO3HTe9WwQzy23sk/r+ToiOMBLWnHlWYMZP8P5W2fEGHhYzu5YOGOSYtq/AManpBkyhqnXf0VrsEJtYZkP05QcC1fOOqy3IMU8zSKNfLao+7szbIoYuMXwO3w4tqmkuh81LWjb8+vQQLspD336bdpipsrq8+RTSGNOl0pEljO/2kurSTS+mhdOkfV9gihvTPuzMGyAmmIY8pxGzQDXspduMC6n5G8PAGNdGOcV82btKr0NNC8LOFhgMuL73DCy714GQ86bYRFFZRtFmXXcJZCRkMEftN0ftRp0me/VVcVM+mIha1OGYTI+Aelp5jRt9pdnNfJFzQBmKE+HqzMdxAdI1bkw1Q05PGR55hqyu0XI3uDVbdBFyNOoNxrX2A8zwv4GLEDFNtBeTtDLYyaju8x1M6nfk6OnyTIqq17+AYVlz9GxlsbnBwGwYWvRw42PIbvqdsz4stw5Ou70+GUh+3QaLgkBPcqF2CfnYekkjCSPkmXs/V+Q8Esyoin+FZ9wNwMH9iul+nrno+ewnmPDmwVYvJs9YS/EHx6BKrQ4pOAUwS7YrF9OK4wM0H534JSFeUStF2Cm6qg4vcXBF800WS39bMAVplnMWXMA4m3sgKS2u1zAthetku233ki7j2SLwjghmebxM/a6uNsw1kiq008+L3ZipLVtM5vBc04UFcq6lMUK9QxjzIfwnyw0zo/0uWDR4P2F0MJE9QMjQi7iimYrRgCFp7owlKh0zMpiIhplzdRuk2YPI7gfttzfsH0F2TG1+gn77iv3Kva+t4G5h1+H9flhWd5SddpuHYUQIyBs1Zr+5i2BGj8Q93w5eV6L5M1twlf00s3AeaUFgg8g4brf6Jx/Tz8jn5W0iC6ZFkTxsWE9DWmnM1E8StAi7W5TB3RqBXxjEYC0kjrstOvyeU/oVi7aQJCq3X2zh/PeK7Q8WL5UWiCGA/eBGFr/ykH6Ht9+GypbH+ys1qaI6HX7C5gNj5jeRujawoBcnBj5q/P/GZvuCWfKcCSHx4jvx7mK1TR6ZHR8d09ivV1oJqSF0OeNHmSlebF/iX+a0UbHYt4cqVEoIozX/nHNg7E9qQghXb3Zzf/nT49ExEOTLpO0OTVVkmzAqT1WH0Wa13jWH1k+XswfLzT89/Q8sz+9GQ70J6AAAAABJRU5ErkJggg=="
+                    width="18px" alt="">
+                <p class="olhinho-p">1.M</p>
+            </div>
+            <section class="img_text">
+                <img width="300px" 
+                    src="https://cdn2.dineroenimagen.com/media/dinero/styles/gallerie/public/images/2022/03/economia-mexico-impexp.jpg">
+            </section>
+            <hr>
+        </div>    
+    </article>
 </body>
 
 </html>

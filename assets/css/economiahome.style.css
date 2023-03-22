@@ -1,20 +1,48 @@
-body{
+body {
     background-color: rgb(255, 255, 255);
 }
 
-#avo{
-    
+#avo {
+   
 }
-#titulos{
-     color: rgb(88, 8, 8);   
-     font-size: 30px; 
-     text-align: center;
-}
-.h2{
-    text-align: center;
+
+#titulos {
+    color: rgb(88, 8, 8);
     font-size: 30px;
-    color: rgb(88, 8, 8) ;
+
 }
-#div-ft{
-    text-align: center;
+.p-text {
+    text-align: justify;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;}
+
+
+
+
+.imgOlhoandCounter{
+    display: flex;
+    align-items: center;
+    color: rgb(160, 160, 160);
+    padding-top: 0%;
+   
 }
+
+.positionOlho {
+    display: flex;
+    justify-content: space-between;
+}
+.p-text {
+    text-align: justify;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;}
+    
+    
+    .h3-divgrande {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #760707;
+        width: 70%;
+        margin-top:20px %;
+    }

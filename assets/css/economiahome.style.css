@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#avo{
+    
+}
+#titulos{
+     color: rgb(88, 8, 8);   
+     font-size: 30px; 
+     text-align: center;
+}
+.h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(88, 8, 8) ;
+}
+#div-ft{
+    text-align: center;
+}

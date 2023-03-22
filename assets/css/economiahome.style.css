@@ -13,12 +13,9 @@ body {
 }
 .p-text {
     text-align: justify;
-    padding: 15px;
+   padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;}
-
-
-
 
 .imgOlhoandCounter{
     display: flex;
@@ -44,5 +41,5 @@ body {
         font-family: 'Times New Roman', Times, serif;
         color: #760707;
         width: 70%;
-        margin-top:20px %;
+        margin-top:20px;
     }

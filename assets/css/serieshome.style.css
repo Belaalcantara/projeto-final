@@ -17,17 +17,18 @@ h2{
 h1 {
     color: rgb(3,3,30);
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: justify;
     margin: 0;
     padding: 10px;
 }
 .historia {
     display: inline;
     margin-left: 20px;
+    text-align: justify;
 }
 /* Card */
 .card{
-    width: 290px;
+    width: 250px;
     height: 200px;
     margin: 25px;
     background-color: rgb(255, 255, 255);
@@ -95,6 +96,9 @@ body{
   }
 .sec1{
     display: flex;
+}
+p{
+    text-align: justify;
 }
 
 

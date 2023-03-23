@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+main{
+    background-color: rgb(140,1,1);
+    width: 98%;
+    height: 97%;
+    padding: 10px;
+    text-align: center;
+    margin: 1;
+    margin-left: 1;
+    margin-top: 3%;
+}
+#pop {
+    color: black;
+    font-size: 50px;
+    font-family: Arial;
+    text-align: center;
+    margin: 3%;
+    font-style: oblique;
+}

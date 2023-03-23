@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+.div-propaganda {
+    text-align: center;
+    padding-bottom:20px ;
+}
+
+.p-text {
+    text-align: justify;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+#avo{} 
+
+.div-moeda {
+    margin-top: 50px;
+}
+

@@ -15,7 +15,10 @@ body {
 
 .div-grande {
     width: 80%;
-    margin-right: 10px;
+    padding: 0;
+}
+.div-grande-news {
+    padding: 0;
 }
 
 p {
@@ -48,19 +51,21 @@ p {
 }
 
 #img-msc {
-    width: 170px;
+    width: 250px;
     padding-top: 15px;
+
+
 }
 
 .img_text {
     display: flex;
-    
+
 }
 
-.img_text2{
+.img_text2 {
     display: inline;
     text-align: left;
-    
+
 }
 
 
@@ -88,22 +93,19 @@ p {
 
 #pai1 {
     width: 70%;
-
+    padding: 10px;
 }
 
 #mae {
-    width: 35%;
+    width: 26%;
     border-left: 4px solid rgb(177, 31, 31);
     padding: 5px;
     background-color: rgb(224, 223, 223);
-
+    margin: 0;
 }
 
 .tio {
-    text-align:center;
     display: flex;
- 
-
 }
 
 #img-sesi {
@@ -133,11 +135,11 @@ p {
 }
 
 #img-fisiculturismo {
-  margin-top: 20px;
+    margin-top: 20px;
     width: 200px;
     height: 150px;
-    
-    
+
+
 }
 
 #tia {
@@ -170,48 +172,97 @@ p {
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-
+    color:black;
 
 }
-.olhinho{
+
+.olhinho {
     display: flex;
-   
+
     margin-left: 100px;
 }
 
-.containerTitleandCounter{
+.containerTitleandCounter {
     display: flex;
 }
 
-.imgOlhoandCounter{
-   display: flex;
-   align-items: center;
-   color: rgb(160, 160, 160);
-   padding-top: 0%;
-  
+.imgOlhoandCounter {
+    display: flex;
+    align-items: center;
+    color: rgb(160, 160, 160);
+    padding-top: 0%;
+
 }
 
-.containerImgandLink p, a{
+.containerImgandLink p,
+a {
     text-align: left;
     text-decoration: none;
     color: rgb(129, 129, 129);
 }
-.positionOlho{
+
+.positionOlho {
     display: flex;
     justify-content: space-between;
 }
-.p-recado{
-   margin: 0px;
+
+.p-recado {
+    margin: 0px;
+    text-shadow: 1px 2px 8px rgba(124, 124, 124, 0.83);
 }
 
-#div-propaganda{
+#div-propaganda {
+    margin-top:50px !important;
+    margin: 0;
+    padding: 20px;
+    height: 400px;
+    
+
+}
+
+#banner_final{
+    border-radius: 50px;
+}
+
+#botao-bolinha {
+    width: 20px;
     display: flex;
-    padding-inline: 20px;
+    text-align: center;
 }
-    #botao-bolinha{
- width: 20px;
- display: flex;
- text-align: center;
-    }
 
-   
+.a-main{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 50%;
+    margin: 5px;
+    -webkit-box-shadow: 10px -7px 57px -32px rgba(0,0,0,0.8);
+-moz-box-shadow: 10px -7px 57px -32px rgba(0,0,0,0.8);
+box-shadow: 10px -7px 57px -32px rgba(0,0,0,0.8);
+border-radius: 20px;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+    
+}
+
+.div-grande-subnews{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 5px;
+    -webkit-box-shadow: 10px -7px 57px -32px rgba(0,0,0,0.8);
+-moz-box-shadow: 10px -7px 57px -32px rgba(0,0,0,0.8);
+box-shadow: 10px -7px 57px -32px rgba(0,0,0,0.8);
+border-radius: 20px;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.img-div-grande-news{
+    width: 256px;
+    height: 256px;
+}
+
+img{
+    border-radius: 10px;
+}

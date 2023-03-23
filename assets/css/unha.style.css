@@ -1,64 +1,78 @@
-body{
+body {
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
-#unha{
+
+#unha {
     color: rgb(0, 0, 0);
     font-size: 48px;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
-h2{
+
+h2 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 23px;
 }
-.sect1{
+
+.sect1 {
     text-align: center;
     margin: 40px;
 }
-#unha2{
+
+#unha2 {
     text-align: left;
-    color:rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     margin-left: 7%;
 }
-#p1{
+
+#p1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     padding: 8px;
 }
-.sect2{
+
+.sect2 {
     text-align: center;
     margin: 30px;
 
 }
-#unha3{
+
+#unha3 {
     text-align: center;
     color: rgb(0, 0, 0);
 }
-#p2{
+
+#p2 {
     font-size: 23px;
 }
-#fotos{
+
+#fotos {
     border-radius: 100%;
     margin: 20px;
+    height: 200px;
+    width: 200px;
 }
-#cuidados{
+
+#cuidados {
     padding: 20px;
     text-align: left;
 }
-#imagens{
+
+#imagens {
     margin: 50px;
-    border-radius: 10%;
+    width: 400px;
+    height: 500px;
 }
-.sect3{
+
+.sect3 {
     display: flex;
     margin-left: 50px;
 }
-#comentários{
+
+#comentários {
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -66,8 +80,79 @@ h2{
     width: 30%;
     padding: 100px;
     height: 50%;
-
 }
-#imagemprincipal{
-    border-radius: 3%;
+
+#articlemae {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#comentário {
+    font-size: 25px;
+    text-align: center;
+}
+
+#fotos3 {
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+#nomes {
+    display: flex;
+    padding: 10px;
+}
+
+#hora {
+    font-size: 15px;
+}
+
+#coment {
+    margin-left: 5px;
+    font-size: 21px;
+}
+
+#like {
+    display: flex;
+    margin: 5px;
+}
+
+#divcomentarios1 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios2 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios3 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios4 {
+    background-color: rgb(186, 192, 198);
+}
+
+#publicado2 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#fotos {
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 8px;
+}
+
+.avo {
+    display: flex;
+    margin-left: 5px;
+}
+
+#fotos2 {
+    border-radius: 100%;
+    margin: 10px;
+    height: 160px;
+    width: 160px;
 }

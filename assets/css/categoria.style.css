@@ -1,9 +1,23 @@
-h1 {
-    color: rgb(3,3,30);
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
+body {
     margin: 0;
-    padding: 10px;
+    background-color: aliceblue;
+}
+
+.pai{
+    display: flex;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.historia {
+    display: inline;
+    margin-left: 20px;
+    text-align: justify;
 }
 /* Card */
 .card{
@@ -61,12 +75,27 @@ h1 {
 body{
     text-align: center;
     background-color: aliceblue;
-    margin: 0;
     background-size: cover;
     text-align: center;
+    margin: 0;
 }
-h2{
-    text-align: center;
-    font-family: Lucida Handwriting;
 
+
+.line-1 {
+    height: 0.5px;
+    background: rgb(110, 110, 110);
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+.sec1{
+    display: flex;
+    justify-content: center;
 }
+p{
+    text-align: justify;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+

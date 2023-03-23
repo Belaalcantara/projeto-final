@@ -1,46 +1,158 @@
-body{
+body {
     background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
 }
-#unha{
+
+#unha {
     color: rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: 48px;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h2{
+
+h2 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
 }
-.sect1{
+
+.sect1 {
     text-align: center;
+    margin: 40px;
 }
-#unha2{
+
+#unha2 {
     text-align: left;
-    color:rgb(0, 0, 0) ;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     margin-left: 7%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#p1{
-    text-align: center;
-    font-size: 15px;
+
+#p1 {
+    text-align: left;
+    font-size: 18px;
     padding: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.sect2{
+
+.sect2 {
     text-align: center;
+    margin: 30px;
+
 }
-#unha3{
+
+#unha3 {
     text-align: center;
     color: rgb(0, 0, 0);
 }
-#p2{
+
+#p2 {
     font-size: 23px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#fotos{
+
+#fotos {
     border-radius: 100%;
     margin: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#cuidados {
+    padding: 20px;
+    text-align: left;
+}
+
+#imagens {
+    margin: 50px;
+    width: 400px;
+    height: 500px;
+}
+
+.sect3 {
+    display: flex;
+    margin-left: 50px;
+}
+
+#comentários {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: auto;
+    width: 30%;
+    padding: 100px;
+    height: 50%;
+}
+
+#articlemae {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#comentário {
+    font-size: 25px;
+    text-align: center;
+}
+
+#fotos3 {
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+#nomes {
+    display: flex;
+    padding: 10px;
+}
+
+#hora {
+    font-size: 15px;
+}
+
+#coment {
+    margin-left: 5px;
+    font-size: 21px;
+}
+
+#like {
+    display: flex;
+    margin: 5px;
+}
+
+#divcomentarios1 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios2 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios3 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios4 {
+    background-color: rgb(186, 192, 198);
+}
+
+#publicado2 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#fotos {
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 8px;
+}
+
+.avo {
+    display: flex;
+    margin-left: 5px;
+}
+
+#fotos2 {
+    border-radius: 100%;
+    margin: 10px;
+    height: 160px;
+    width: 160px;
 }

@@ -1,18 +1,15 @@
 #cabelos{
-    font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
     text-align: center;
     color:rgb(0, 0, 0);
 }
 #fraseimagem{
-    font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
     text-align: center;
     color:rgb(0, 0, 0) ;
 }
 #p1{
-    font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
     color: rgb(0, 0, 0);
 }
 .sect1{
@@ -28,15 +25,17 @@
 }
 body{
     background-color: white;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 #p3{
     color:rgb(0, 0, 0) ;
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin: 15px;
 }
 #cabelos2{
   font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
     text-align: left;
     margin: 3%;
 }
@@ -48,14 +47,15 @@ body{
     text-align: left;
     margin-left: 3px;
     padding: 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #p2{
-    text-align: center;
-    font-size: 25px;
+    text-align: left;
+    font-size: 22px;
+    margin-left: 3%;
 }
 h3{
-    font-size: 30px;
+    font-size: 23px;
     margin-left: 3%;
 }
 #imagem{
@@ -63,4 +63,74 @@ h3{
 }
 .cuidados{
     text-align: center;
+}
+#comentário {
+    font-size: 25px;
+    text-align: center;
+}
+
+#fotos3 {
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+#nomes {
+    display: flex;
+    padding: 10px;
+}
+
+#hora {
+    font-size: 15px;
+}
+
+#coment {
+    margin-left: 5px;
+    font-size: 21px;
+}
+
+#like {
+    display: flex;
+    margin: 5px;
+}
+
+#divcomentarios1 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios2 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios3 {
+    background-color: rgb(186, 192, 198);
+}
+
+#divcomentarios4 {
+    background-color: rgb(186, 192, 198);
+}
+
+#publicado2 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#fotos {
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 8px;
+}
+
+.avo{
+    display: flex;
+    margin-left: 5px;
+}
+
+#fotos2 {
+    border-radius: 100%;
+    margin: 10px;
+    height: 160px;
+    width: 160px;
 }

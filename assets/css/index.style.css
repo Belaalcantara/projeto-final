@@ -204,5 +204,9 @@ p {
    margin: 0px;
 }
 
+#div-propaganda{
+    display: flex;
+    padding-inline: 20px;
+}
 
    

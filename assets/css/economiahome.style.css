@@ -64,7 +64,14 @@ body {
     margin-right: 15px;
     margin-bottom: 60px;
 }
-.containerImgandLink p, a{
+
+.containerImgandLink p,
+a {
     text-align: left;
     text-decoration: none;
-    color: rgb(129, 129, 129);}
+    color: rgb(129, 129, 129);
+}
+
+#avo{
+    margin-right:15% ;
+}

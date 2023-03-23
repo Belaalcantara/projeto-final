@@ -208,5 +208,10 @@ p {
     display: flex;
     padding-inline: 20px;
 }
+    #botao-bolinha{
+ width: 20px;
+ display: flex;
+ text-align: center;
+    }
 
    

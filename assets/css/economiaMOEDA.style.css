@@ -1,29 +1,10 @@
-body {
+body{
     background-color: white;
+    margin: 0%;
 }
-
-.div-propaganda {
-    text-align: center;
-    padding-bottom: 20px;
+#article-avo{
+    display: flex;
 }
-
-.p-text {
-    text-align: justify;
-    padding: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
-
-#avo {
-    width: 40%;
-}
-
-.div-moeda {
-    margin-top: 50px;
-}
-
-
-
-#img1 {
-    width: 450px;
-}
+.div-grande {
+    width: 80%;
+    margin-right: 10px;}

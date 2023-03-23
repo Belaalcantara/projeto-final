@@ -87,7 +87,6 @@ h1{
 }
 .elenco1{
     display: flex;
-
     justify-content: center;
 }
 .elenco2{
@@ -97,18 +96,9 @@ h1{
 .elenco3{
     display: flex;
     justify-content: center;
+}
 
-    padding: 85px;
-}
-.elenco2{
-    display: flex;
-    padding: 85px;
-}
-.elenco3{
-    display: flex;
-    padding: 85px;
 
-}
 .resumo{
     text-align: justify;
     color: white;

@@ -24,6 +24,16 @@ h2 {
 
 .sect2 {
     text-align: center;
+    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    background-color: rgb(249, 252, 255);
+    text-align: center;
+    margin-right: 18px;
+    margin-left: 13px;
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
+
 }
 
 #skin2 {
@@ -69,10 +79,15 @@ h4 {
 }
 
 .sect3 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(249, 252, 255);
     text-align: center;
-    margin-right: 15px;
-    margin-left: 13px;
+    margin-right: 35px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
+    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
 }
 
 #comentários {
@@ -122,19 +137,28 @@ h4 {
 }
 
 #divcomentarios1 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
+
 
 #divcomentarios2 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
 
+
 #divcomentarios3 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
 
 #divcomentarios4 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
 
 #publicado2 {

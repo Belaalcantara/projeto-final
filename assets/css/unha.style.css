@@ -24,7 +24,7 @@ h2 {
 #unha2 {
     text-align: left;
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 7%;
 }
 
@@ -37,6 +37,15 @@ h2 {
 .sect2 {
     text-align: center;
     margin: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    border-left: 4px solid rgb(177, 31, 31);
 
 }
 
@@ -119,19 +128,27 @@ h2 {
 }
 
 #divcomentarios1 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
 
 #divcomentarios2 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
 
 #divcomentarios3 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
 
 #divcomentarios4 {
-    background-color: rgb(186, 192, 198);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid rgb(177, 31, 31);
 }
 
 #publicado2 {
@@ -155,4 +172,7 @@ h2 {
     margin: 10px;
     height: 160px;
     width: 160px;
+}
+#propaganda{
+    padding: 10px;
 }

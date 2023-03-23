@@ -106,15 +106,15 @@ h1{
 }
 .elenco1{
     display: flex;
-    padding: 85px;
+    justify-content: center;
 }
 .elenco2{
     display: flex;
-    padding: 85px;
+    justify-content: center;
 }
 .elenco3{
     display: flex;
-    padding: 85px;
+    justify-content: center;
 }
 .resumo{
     text-align: justify;

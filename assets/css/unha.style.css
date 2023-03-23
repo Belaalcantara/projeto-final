@@ -1,17 +1,16 @@
 body{
     background-color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 #unha{
     color: rgb(0, 0, 0);
     font-size: 50px;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }
 .sect1{
     text-align: center;
@@ -21,16 +20,15 @@ h2{
     color:rgb(0, 0, 0) ;
     font-size: 25px;
     margin-left: 7%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #p1{
     text-align: center;
     font-size: 15px;
     padding: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .sect2{
     text-align: center;
+    display: block;
 }
 #unha3{
     text-align: center;
@@ -38,9 +36,26 @@ h2{
 }
 #p2{
     font-size: 23px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #fotos{
     border-radius: 100%;
     margin: 20px;
+}
+#cuidados{
+    padding: 20px;
+    text-align: left;
+}
+#imagens{
+    margin: 50px;
+}
+.sect3{
+    display: flex;
+}
+#comentários{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
 }

@@ -1,18 +1,15 @@
 #cabelos{
     font-size: 48px;
-    font-family:'Times New Roman', Times, serif;
     text-align: center;
     color:rgb(0, 0, 0);
 }
 #fraseimagem{
     font-size: 23px;
-    font-family:'Times New Roman', Times, serif;
     text-align: center;
     color:rgb(0, 0, 0) ;
 }
 #p1{
     font-size: 18px;
-    font-family:'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
 }
 .sect1{
@@ -29,16 +26,16 @@
 body{
     background-color: white;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 #p3{
     color:rgb(0, 0, 0) ;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     margin: 15px;
 }
 #cabelos2{
   font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
     text-align: left;
     margin: 3%;
 }
@@ -53,8 +50,9 @@ body{
     font-size: 20px;
 }
 #p2{
-    text-align: center;
+    text-align: left;
     font-size: 22px;
+    margin-left: 3%;
 }
 h3{
     font-size: 23px;
@@ -66,10 +64,6 @@ h3{
 .cuidados{
     text-align: center;
 }
-#articlemae {
-    font-family: 'Times New Roman', Times, serif;
-}
-
 #comentário {
     font-size: 25px;
     text-align: center;

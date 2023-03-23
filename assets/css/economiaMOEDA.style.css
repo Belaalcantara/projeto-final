@@ -15,16 +15,14 @@ body {
 }
 
 #avo {
-    display: flex;
+    width: 40%;
 }
 
 .div-moeda {
     margin-top: 50px;
 }
 
-#text-img {
-    display: flex;
-}
+
 
 #img1 {
     width: 450px;

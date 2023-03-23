@@ -87,15 +87,15 @@ h1{
 }
 .elenco1{
     display: flex;
-    padding: 85px;
+    padding: 150px;
 }
 .elenco2{
     display: flex;
-    padding: 85px;
+    padding: 150px;
 }
 .elenco3{
     display: flex;
-    padding: 85px;
+    padding: 150px;
 }
 .resumo{
     text-align: justify;

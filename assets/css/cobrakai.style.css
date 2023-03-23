@@ -87,15 +87,17 @@ h1{
 }
 .elenco1{
     display: flex;
-    padding: 150px;
+    justify-content: center;
 }
 .elenco2{
     display: flex;
-    padding: 150px;
+    
+    justify-content: center;
 }
 .elenco3{
     display: flex;
-    padding: 150px;
+    
+    justify-content: center;
 }
 .resumo{
     text-align: justify;
@@ -116,7 +118,7 @@ h1{
 }
 .sobre{
     width: 800px;
-    height: 120px;
+    height: 250px;
     margin: 25px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
@@ -125,7 +127,7 @@ h1{
 }
 .card2{
    
-    height: 900px;
+    height: 200px;
     margin: 25px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;

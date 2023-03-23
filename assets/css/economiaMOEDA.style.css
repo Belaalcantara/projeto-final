@@ -4,7 +4,7 @@ body {
 
 .div-propaganda {
     text-align: center;
-    padding-bottom:20px ;
+    padding-bottom: 20px;
 }
 
 .p-text {
@@ -13,9 +13,19 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
-#avo{} 
+
+#avo {
+    display: flex;
+}
 
 .div-moeda {
     margin-top: 50px;
 }
 
+#text-img {
+    display: flex;
+}
+
+#img1 {
+    width: 450px;
+}

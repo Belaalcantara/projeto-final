@@ -55,7 +55,8 @@ article{
 .card-footer{
     margin-top: 15px;
     text-align: center;
-    background-color: rgb(140, 1, 1);
+    background-color: rgb(29, 0, 156);
+    color: aliceblue;
     display: flex;
     align-items: baseline;
     justify-content: center;

@@ -11,13 +11,22 @@
 <body>
     <iframe src="../layout/header.html" frameborder="0" width="100%" scrolling="no"></iframe>
 
-    <section>
+    <section id="formulario">
+        
         <h1>DESEJA NOS CONTATAR? PREENCHA A BAIXO!</h1>
-        <label for="nome."></label>
+        <form action="https://api.staticforms.xyz/submit" method="post"></form>
+        <label>NOME.</label>
         <input type="name" name="nome." placeholder="digite seu nome, ex: Thiago Ferreira">
+        <label>E-MAIL.</label>
         <input type="email" name="e-mail." placeholder="digite seu e-mail, ex: felipesantos@gmail.com">
-        <input type="number" name="número." placeholder="digite seu número. (opcional)">
+         <h2>deseja mandar um comentario avaliando nosso blog?</h2>
+        <a href="../pages/feedbak.html"> <button>sim:)</button> </a>
+        <a href="../pages/sucesso.html"> <button>não:(</button></a>
          <button type="submit">ENVIAR!</button>
 
+         <input type="hidden" name="accessKey" value="aaaaaaaa-bbbb-cccc-dddd-eeee6666kkkk">
+        
+    
+    </section>
 
 

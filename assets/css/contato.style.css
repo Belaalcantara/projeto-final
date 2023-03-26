@@ -1,9 +1,10 @@
 body {
     text-align: center;
-    background-color: rgb(84, 100, 155);
+    background-color: rgb(158, 167, 194);
     justify-content: center;
     align-items: center;
     min-width: 10vh;
+    margin: 0;
 
     
     
@@ -42,4 +43,9 @@ input:focus{
 }
 .titulo{
     font-family: 'Prata', serif;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 10px;
 }

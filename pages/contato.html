@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Contato</title>
     <link rel="stylesheet" href="../assets/css/contato.style.css">
+    <meta name="formulario-blog" content="width=device-width, initial=1.0">
 
 </head>
 
@@ -12,24 +13,27 @@
     <iframe src="../layout/header.html" frameborder="0" width="100%" scrolling="no"></iframe>
 
     <section id="section1">
-
-        <h1 class="titulo">DESEJA NOS CONTATAR? PREENCHA A BAIXO!</h1>
-        <form action="https://api.staticforms.xyz/submit" method="post"></form>
-        <label>NOME.</label>
-        <input type="name" name="nome." placeholder="digite seu nome, ex: Thiago Ferreira">
-        <label>E-MAIL.</label>
-        <input type="email" name="e-mail." placeholder="digite seu e-mail, ex: felipesantos@gmail.com">
+        <form>
+            <h1 class="titulo">DESEJA NOS CONTATAR? PREENCHA A BAIXO!</h1>
+            <form action="https://api.staticforms.xyz/submit" method="post"></form>
+            <label>NOME.</label>
+            <input type="name" name="nome." placeholder="digite seu nome, ex: Thiago Ferreira" autocomplete="off"; required> 
+            <label>E-MAIL.</label>
+            <input type="email" name="e-mail." placeholder="digite seu e-mail, ex: felipesantos@gmail.com" autocomplete="off"; required>
+            <label>motivo do contato.</label>
+            <textarea name="message"></textarea placeholder="escreva o porque esta nos contando." autocomplete="off"; required>
 
         <button type="submit"->ENVIAR!</button>
-        <input type="hidden" name="accessKey" value="aaaaaaaa-bbbb-cccc-dddd-eeee6666kkkk">
+        <input type="hidden" name="accessKey" value=" bccf421a-cb22-4c0f-a992-de9b61e6830e">
+
     </section>
 
     <section id="section2">
-        <h4 class="titulo">deseja mandar um comentario avaliando nosso blog?</h4>
+        <h3 class="titulo">deseja mandar um comentario avaliando nosso blog?</h3>
         <a href="../pages/feedbak.html"> <button>sim:)</button> </a>
         <a href="../pages/sucesso.html"> <button>não:(</button></a>
     </section>
     <iframe width="100%" height="300px" src="layout/footer.html" frameborder="0" scrolling="0"></iframe>
-
+</form>
     </body>
 </html>

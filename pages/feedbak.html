@@ -2,61 +2,36 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Feedback</title>   
         <link rel="stylesheet" href="../assets/css/feedback.style.css">
-        
-        
+        <title>Contato</title>
     </head>
     <body>
+        <div id="login">
+            <form class="card">
+                <div class="card-header">
+                    <h2>Contato</h2>
+                </div>
+                <div class="card-content">
+                    <div class="card-content-area">
+                        <label for="usuario">Nome</label>
+                        <input type="text" id="usuario" autocomplete="off">
+                    </div>
+                <div class="card-content">
+                    <div class="card-content-area">
+                        <label for="usuario">Email</label>
+                        <input type="email" id="usuario" autocomplete="off">
+                    </div>
+                    <div class="card-content-area">
+                        <label for="comentário">Senha</label>
+                        <input type="password" id="comentário" autocomplete="off">
 
-        
-        <iframe src="../layout/header.html" framborder="0" scrolling="no" width="100%"></iframe>
-        <article>
-
-        <section>
-            <h1>Deixe seu Feedback!</h1>
-            <p>
-
-            </p>
-          
-        <form action="">
-          
-            <div class="single-input">
-                <p>
-
-                </p>
-                <h2>Nome</h2>
-                <input required type="text" name="" id="nome" class="input">
-</div>
-<div class="single-input">
-    <h2>Email</h2>
-    <input required type="text" name="" id="email" class="input" type="email">
-</div>
-<div class="single-input">
-    <h2>Comentário</h2>
-    <input required type="text" name="" id="comentário" class="input"
-    <p>
-
-    </p>
-    <p>
-
-    </p>
-</div>
-<div class="feedback">
-    <input type="hidden" name="oculto" value="22">
-    <!--
-        <input type="datetime" name="data-hora">
-    -->
-    
-    <!--
-        <button>Enviar Mensagem</button>
-    -->
-</div>
-<button class="btn btn-green">Enviar</button>
-</article>
-</section>
-        </form>
-        
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <input type="submit" value="login" class="submit">
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                </div>
+            </form>
+        </div>
     </body>
-    <iframe src="../layout/footer.html" framborder="0" width="100%" height="265px"></iframe>
 </html>

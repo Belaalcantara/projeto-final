@@ -57,11 +57,7 @@ p {
 }
 
 
-#img-fut-comeco {
-    width: 250px;
 
-
-}
 
 .div-lateral {
     width: 30px;
@@ -190,7 +186,6 @@ a {
 
 .p-recado {
     margin: 0px;
-    text-shadow: 1px 2px 8px rgba(124, 124, 124, 0.83);
 }
 
 #div-propaganda {
@@ -250,11 +245,8 @@ img {
 }
 
 #divcomentarios1 {
-    background-color: rgb(186, 192, 198);
-    width: 33%;
-    -webkit-box-shadow: 10px -7px 57px -32px rgba(0, 0, 0, 0.8);
-    -moz-box-shadow: 10px -7px 57px -32px rgba(0, 0, 0, 0.8);
-    box-shadow: 10px -7px 57px -32px rgba(0, 0, 0, 0.8);
+    background-color: rgb(209, 225, 255);
+    box-shadow: rgba(1, 61, 131, 0.3) 0px 0px 0px 3px;
     border-radius: 20px;
     padding: 20px;
     margin: 10px;
@@ -272,7 +264,7 @@ img {
 
 #nomes {
     display: flex;
-    padding: 10px;
+    padding: 15px;
 }
 
 #fotos {
@@ -286,11 +278,15 @@ img {
     font-size: 21px;
 }
 
-#like {
-    display: flex;
+#like {}
+
     margin: 5px;
 }
 
 .containerComentario {
-    display: flex;
+
+}
+.fotos{
+   width: 50px;
+   height: 40px;
 }

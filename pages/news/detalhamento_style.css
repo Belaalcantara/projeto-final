@@ -245,7 +245,7 @@ img {
 }
 
 #divcomentarios1 {
-    background-color: rgb(209, 225, 255);
+    background-color: rgb(227, 237, 255);
     box-shadow: rgba(1, 61, 131, 0.3) 0px 0px 0px 3px;
     border-radius: 20px;
     padding: 20px;
@@ -278,14 +278,11 @@ img {
     font-size: 21px;
 }
 
-#like {}
+#like {
 
     margin: 5px;
 }
 
-.containerComentario {
-
-}
 .fotos{
    width: 50px;
    height: 40px;

@@ -109,7 +109,7 @@ h3{
 #divcomentarios2 {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border-left: 4px solid rgb(177, 31, 31);
+    border-left: 4px solid rgb(29, 0, 156);
 }
 
 #divcomentarios3 {
@@ -121,7 +121,7 @@ h3{
 #divcomentarios4 {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border-left: 4px solid rgb(177, 31, 31);
+    border-left: 4px solid rgb(29, 0, 156);
 }
 
 #publicado2 {
@@ -152,7 +152,7 @@ h3{
     -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
-    border-left: 4px solid rgb(177, 31, 31);
+    border-left: 4px solid rgb(29, 0, 156);
     margin-left: 30px;
     margin-right: 30px;
 }

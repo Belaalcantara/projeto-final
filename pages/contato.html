@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Entre em contato</title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="../assets/css/contato.style.css">
-        <iframe src=""></iframe>
-        <h1>Entre em Contato</h1>
-</head>
-<body>
-    <section>
+        <title>Contato</title>
+    </head>
+    <body>
+        <iframe src="../layout/header.html" frameborder="0" width="100%"></iframe>
+        <div id="login">
+            <form class="card">
+                <div class="card-header">
+                    <h2>Contato</h2>
+                </div>
+                <div class="card-content">
+                    <div class="card-content-area">
+                        <label for="usuario">Nome</label>
+                        <input type="text" id="usuario" autocomplete="off">
+                    </div>
+                <div class="card-content">
+                    <div class="card-content-area">
+                        <label for="usuario">Email</label>
+                        <input type="email" id="usuario" autocomplete="off">
+                    </div>
+                    <div class="card-content-area">
+                        <label for="comentário">Senha</label>
+                        <input type="password" id="comentário" autocomplete="off">
 
-    
-    <form action="sucesso.html">
-        <label>
-            <h2>Nome</h2>
-</label>
-<input type="text">
-<label>
-    <h2>Email</h2>
-    </label>
-    <input type="email">
-    <label>
-        <h2>Deixe um Comentário</h2>
-    </label>
-    <input type="text">
-    <p>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-footer">
+                        <a id="link" href="../pages/sucesso.html" target="_parent">
+                            <button type="button" class="btn-primary">Enviar</button>
+                        </a>
+                        <p>
 
-    </p>
-    <p>
-
-    </p>
-    <input type="submit">
-</section>
-    </form>
-    <iframe src=""></iframe>
-</body>
+                        </p>
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                </div>
+                </div>
+            </form>
+        </div>
+        </div>
+        <iframe src="../layout/footer.html" frameborder="0" width="100%" height="250px"></iframe>
+    </body>
 </html>

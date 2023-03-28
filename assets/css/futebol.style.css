@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: rgb(3,3,30);
+    padding-top: 0;
+}
+
+#footer {
+    margin-bottom: -15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 15px;
+    margin: 30px 30px;
+}
+
+p {
+    margin: 170px 170px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imagem {
+    text-align: center;
+    position: relative;
+}
+
+.futebol {
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+h2 {
+    margin-right: 900px;
+}
+
+#origem{
+    display: flex;
+}
+
+.texto{
+    margin-left: 50px;
+}
+
+
+#conteudo {
+    background-color: white;
+    margin: 15px 15px;
+    line-height: 36px;
+}

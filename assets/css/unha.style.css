@@ -136,7 +136,7 @@ h2 {
 #divcomentarios2 {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border-left: 4px solid rgb(177, 31, 31);
+    border-left: 4px solid rgb(29, 0, 156);
 }
 
 #divcomentarios3 {
@@ -148,7 +148,7 @@ h2 {
 #divcomentarios4 {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border-left: 4px solid rgb(177, 31, 31);
+    border-left: 4px solid rgb(29, 0, 156);
 }
 
 #publicado2 {
@@ -176,6 +176,21 @@ h2 {
 #propaganda{
     padding: 10px;
 }
+
 #footer{
     margin: -4px;
+
+.sect2_{
+    text-align: center;
+    margin: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    border-left: 4px solid rgb(29, 0, 156);
+
 }

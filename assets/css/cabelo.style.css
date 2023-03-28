@@ -38,8 +38,7 @@ body{
     color:rgb(0, 0, 0) ;
     text-align: center;
     font-size: 18px;
-    margin: 15px;
-    padding: 8px;
+    margin: 13px;
 }
 #cabelos2{
   font-size: 30px;
@@ -58,7 +57,7 @@ body{
 }
 #p2{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 3%;
 }
 h3{

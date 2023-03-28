@@ -176,6 +176,10 @@ h2 {
 #propaganda{
     padding: 10px;
 }
+
+#footer{
+    margin: -4px;
+
 .sect2_{
     text-align: center;
     margin: 30px;
@@ -188,4 +192,5 @@ h2 {
     -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     border-left: 4px solid rgb(29, 0, 156);
+
 }

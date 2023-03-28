@@ -30,7 +30,7 @@ body {
 
 .wrapper h4 {
     padding-bottom: 5px;
-    color: #21cdd3;
+    color: rgb(21,21,98);
 }
 
 .input_group {
@@ -65,10 +65,10 @@ body {
 }
 
 .input_box .name:focus, .dob:focus {
-    -webkit-box-shadow: 0 0 2px 1px #21cdd3;
-    -moz-box-shadow: 0 0 2px 1px #21cdd3;
-    box-shadow: 0 0 2px 1px #21cdd3;
-    border: 1px solid #21cdd3;
+    -webkit-box-shadow: 0 0 2px 1px rgb(21,21,98);
+    -moz-box-shadow: 0 0 2px 1px rgb(21,21,98);
+    box-shadow: 0 0 2px 1px rgb(21,21,98);
+    border: 1px solid rgb(21,21,98);
 }
 
 .input_box .icon {
@@ -91,9 +91,9 @@ body {
 }
 
 .name:focus+.icon {
-    background-color: #21cdd3;
+    background-color: rgb(21,21,98);
     color: #fff;
-    border-right: 1px solid #21cdd3;
+    border-right: 1px solid rgb(21,21,98);
     border: none;
     transition: 1s;
 }
@@ -135,14 +135,14 @@ body {
 }
 
 .radio:checked+label {
-    background-color: #21cdd3;
+    background-color: rgb(21,21,98);
     color: #fff;
     transition: 0.5s;
 }
 
 .input_box button {
     width: 100%;
-    background-color: #21cdd3;
+    background-color: rgb(21,21,98);
     border: none;
     color: #fff;
     padding: 15px;
@@ -154,6 +154,6 @@ body {
 
 .input_box button:hover {
     cursor: pointer;
-    background-color: #05b1a3;
+    background-color: rgb(21,21,98);
 }
         

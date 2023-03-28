@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<iframe src="../../layout/header.html" width="100%" frameborder="0" scrolling="0"></iframe>
+<link rel="stylesheet" href="../../assets/css/enem.style.css">
+
+<body>
+
+    <section id="banner">
+        <img id="img-banner" src="" alt="">
+    </section>
+
+    <section id="avo">
+
+        <article id="pai1">
+            <!--div maior com noticias gerais-->
+            <div id="div-principal">
+                <div class="div-grande">
+                    <section>
+                        <h2 id="h2-titleNews">VOCÊ VAI PRESTAR O ENEM ESSE ANO?</h1>
+                            <img id="img-1" width="830px" height="400px" src="data:image/jpeg;base64,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">
+                    </section>
+                </div>
+                <div class="div-grande">
+
+                </div>
+            </div>
+
+            <section id="tia">
+                <div class="div-grande-subnews">
+                    <h3 class="h3-divgrande">Enem</h3>
+                    <div class="imgOlhoandCounter">
+
+                    </div>
+                    <section class="img_text">
+
+                        <p class="p-text">O Exame Nacional do Ensino Médio (Enem) é uma das principais formas de acesso ao ensino superior no Brasil. Realizado anualmente pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep), o Enem tem como objetivo avaliar o desempenho dos estudantes do ensino médio em relação aos conteúdos programáticos da etapa.
+
+                        <p class="p-text">O Enem é composto por quatro áreas de conhecimento: Linguagens, Códigos e suas Tecnologias; Ciências Humanas e suas Tecnologias; Ciências da Natureza e suas Tecnologias; e Matemática e suas Tecnologias. Cada área tem 45 questões objetivas e uma redação, totalizando 180 questões e uma redação.
+                        </p>
+
+                        <p class="p-text">O Enem é utilizado como critério de seleção para programas do governo federal, como o Programa Universidade para Todos (ProUni), que oferece bolsas de estudo integrais e parciais em instituições privadas de ensino superior, e o Sistema de Seleção Unificada (Sisu), que seleciona estudantes para vagas em instituições públicas de ensino superior.
+                        </p>
+
+                        <img id="img-2" width="780px" src="https://s2.glbimg.com/zeXbQZ8Y5X4BPTKKrNFiTuXVW9o=/0x28:4000x2341/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/v/T/OooxGqTYaOZ0gGRGQr9g/gabarito-enem-2022-3.jpg"
+                            alt="">
+                        <p id="legenda"></p>
+
+                        <p class="p-text">Além disso, o Enem é utilizado como forma de obtenção de certificação de conclusão do ensino médio para estudantes maiores de 18 anos que não concluíram essa etapa na idade adequada.
+                        </p>
+                        <p class="p-text">
+                            Essa tendência tem crescido especialmente no contexto da pandemia da COVID-19, que
+                            dificultou o acesso de estudantes estrangeiros a outros exames internacionais como o SAT
+                            (Scholastic Assessment Test), por exemplo. O Enem conta com uma infraestrutura sólida de
+                            aplicação e correção do exame, e pode ser uma alternativa viável para as universidades
+                            estrangeiras.
+
+                            Além disso, o Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP),
+                            responsável pelo Enem, tem firmado convênios e parcerias com instituições de outros países
+                            para facilitar o processo de reconhecimento do exame pelos órgãos competentes desses países.
+                            Com isso, estuda-se a possibilidade de oferecer benefícios para os estudantes, como
+                            oportunidades de bolsas de estudos e créditos educacionais.
+                        </p>
+                        <p class="p-text">
+                            Em resumo, a crescente valorização do Enem por algumas universidades estrangeiras pode
+                            proporcionar oportunidades interessantes para estudantes brasileiros que buscam uma formação
+                            superior fora do país, e esse movimento deve ser acompanhado de perto pelas instituições de
+                            ensino e pelos estudantes que desejam se candidatar a essas vagas.</p>
+                        </p>
+
+                        <img id="img-3" width="430px" height="200px"
+                            src="https://contramapa.com/wp-content/uploads/2016/12/dicas.png">
+                        <p id="legenda"></p>
+
+                        <h3>fique com 10 dicas de como estudar para o enem.</h3>
+                        <p class="p-text">1. Crie um cronograma de estudos e siga-o à risca; </p>
+                        <p class="p-text">2. Utilize materiais atualizados e de qualidade, como apostilas e livros</p>
+                            específicos para o
+                            Enem;
+                        <p class="p-text"> 3. Faça simulados para testar seus conhecimentos e familiarizar-se com o
+                            formato da prova;</p>
+                        </p>
+                        <p class="p-text">5. Tenha uma rotina saudável, alimentando-se bem, dormindo o suficiente e
+                            praticando atividades físicas;</p>
+                        <p class="p-text"> 6. Faça anotações e resumos para fixar melhor os conteúdos estudados;</p>
+                        <p class="p-text"> 7. Utilize a internet como uma aliada nos estudos, buscando vídeos
+                            explicativos e outras
+                            ferramentas;</p>
+
+                        </p>
+                        <p class="p-text">8. Participe de grupos de estudo com amigos para trocar informações e tirar
+                            dúvidas;</p>
+                            revistas e sites de notícias.
+                        <p class="p-text"> 9. Realize revisões periódicas sobre os conteúdos estudados;</p>
+                        <p class="p-text"> 10. Mantenha-se informado sobre atualidades e temas relevantes para a prova,
+                            lendo jornais,
+                            revistas e sites de notícias.</p>
+                        </p>
+                        </p>
+                        <img id="img-2" width="780px"
+                            src="https://thumb.mytentacle.com.br/-XL0ZROKXCzUXQjUMSjbIvKcvNI=/1000x397/filters:format(webp)/https://udi-s.sfo3.cdn.digitaloceanspaces.com/wp-content/uploads/2021/02/duracao-do-sat-capa-scaled.jpg"
+                            alt="">
+                        <p id="legenda"></p>
+
+
+
+                    </section>
+
+
+                </div>
+                <h3 id="comentário">Comentários:</h3>
+
+                <div class="containerComentario">
+                    <div id="divcomentarios1">
+                        <p id="publicado2">Publicado por:</p>
+                        <div id="nomes">
+                            <img classe="fotos" src="../../assets/images/logo.png" alt="fotoraissa" width="50"
+                                height="50">
+                            <h3>Equipe_SIGMA.</h3>
+                        </div>
+                        <p id="hora">- há 10 dias.</p>
+                        <p class="coment">viemos por meio desde comentario declarar nosso respoeito e luto por todos
+                            aqueles que perderam pessoas queridas, e amadas.</p>
+                        <div id="like">
+                            <img src="../../assets/images/like.jfif" alt="like" width="30" height="30">
+                            <p id="like">10.M likes</p>
+                        </div>
+                    </div>
+                    <div id="divcomentarios1">
+                        <p id="publicado2">Publicado por:</p>
+                        <div id="nomes">
+                            <img class="fotos"
+                                src="https://www.cartacapital.com.br/wp-content/uploads/2023/01/As-qC-WTGZmSGOXv-e1674828458844.jpg"
+                                alt="fotoraissa" width="50" height="50">
+                            <h3>Fatima_Regina_26891.</h3>
+                        </div>
+                        <p id="hora">- há 7 horas</p>
+                        <p class="coment">também sinto muito mas não coloquem a culpa no Bolsonaro!!.</p>
+                        <div id="like">
+                            <img src="../../assets/images/like.jfif" alt="like" width="30" height="30">
+                            <p id="like">32 likes</p>
+                        </div>
+                    </div>
+                    <div id="divcomentarios1">
+                        <p id="publicado2">Publicado por:</p>
+                        <div id="nomes">
+                            <img class="fotos"
+                                src="https://conteudo.imguol.com.br/c/tab/9a/2022/04/26/lula-oculos-juliet-1650976512922_v2_450x600.jpg"
+                                alt="fotoraissa" width="50" height="50">
+                            <h3>AnaLuisa_L!.</h3>
+                            <p id="hora">Em resposta a "@Fatima_Regina_26891."</p>
+
+                        </div>
+                        <p id="hora">- há 2 horas</p>
+                        <div id="like">
+                            <p class="coment">
+                                vai cuidar dos seus netos, fazer bolo, fazer croche, e sai da internet !!!!</p>
+                            <img src="../../assets/images/like.jfif" alt="like" width="30" height="30">
+                            <p id="like">7800 likes</p>
+                        </div>
+                    </div>
+
+                </div>
+        </article>
+        <!--div lateral com noticias gerais-->
+        <article id="mae">
+            <h2>De tudo um pouco e ainda mais!!</h2>
+            <a href="pages/filmesseries/filmeshome.html">
+                <div class="div-grande-subnews">
+                    <h3 class="h3-divgrande">Recomendações de séries na NETFLIX</h3>
+                    <div class="imgOlhoandCounter">
+                        <img class="imgolho" src="https://static.vecteezy.com/system/resources/previews/011/729/444/non_2x/red-heart-icon-free-png.png
+                        " width="20px" height="20px" alt="">
+                        <p class="olhinho-p">28,5.M</p>
+                    </div>
+                    <section class="img_text_aside">
+                        <img id="img-comotreidragao"
+                            src="https://guiadanetflix.com.br/wp-content/uploads/2019/03/o-sucessor.jpg" alt="">
+                        <p class="p-text">
+                        </p>
+                    </section>
+            </a>
+            </div>
+
+            <div class="div-grande-subnews">
+                <h3 class="h3-divgrande">Senai e sesi fazem colaboração de doações para quem sofreu com os alagamentos
+                </h3>
+                <div class="imgOlhoandCounter">
+                    <img class="imgolho"
+                        src="https://static.vecteezy.com/system/resources/previews/011/729/444/non_2x/red-heart-icon-free-png.png"
+                        width="20px" height="20px" alt="">
+                    <p class="olhinho-p">360 M</p>
+                </div>
+                <section class="img_text">
+                    <img id="img-sesi"
+                        src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/chuvas_litoral_sp_fev_2023-7.jpg?w=732&h=412&crop=1"
+                        alt="">
+                    <p class="p-text"></p>
+                </section>
+            </div>
+
+            <div class="div-grande-subnews">
+                <h3 class="h3-divgrande">A netflix está falindo?</h3>
+                <div class="imgOlhoandCounter">
+                    <img class="imgolho"
+                        src="https://static.vecteezy.com/system/resources/previews/011/729/444/non_2x/red-heart-icon-free-png.png"
+                        width="20px" height="20px" alt="">
+                    <p class="olhinho-p">548.M</p>
+                </div>
+                <section class="img_text">
+                    <img id="img-netflix"
+                        src="https://img.olhardigital.com.br/wp-content/uploads/2021/04/Netflix-registra-queda-com-chegada-de-novos-streamings.jpg"
+                        alt="">
+                    <p class="p-text"></p>
+                </section>
+            </div>
+
+
+            <div class="div-grande-subnews">
+                <a href="pages/economia/economiahome.html">
+                    <h3 class="h3-divgrande">Como anda a economia do Brasil pós pandemia?</h3>
+                    <div class="imgOlhoandCounter">
+                        <img class="imgolho"
+                            src="https://static.vecteezy.com/system/resources/previews/011/729/444/non_2x/red-heart-icon-free-png.png"
+                            width="20px" height="20px" alt="">
+                        <p class="olhinho-p">1,5.M</p>
+                    </div>
+                    <section class="img_text">
+                        <img id="img-bolsonaro"
+                            src="https://www.emdefesadasaude.com.br/wp-content/uploads/2021/08/Presidente.jpg" alt="">
+                        <p class="p-recado">para saber mais sobre economia, clique aqui!</p>
+                </a>
+    </section>
+    </div>
+
+    <div class="div-grande-subnews">
+        <h3 class="h3-divgrande">O drone russo e o estados unidos, por que isso pode ocasionar uma nova fase na guerra
+        </h3>
+        <div class="imgOlhoandCounter">
+            <img class="imgolho" src="https://static.vecteezy.com/system/resources/previews/011/729/444/non_2x/red-heart-icon-free-png.png
+            " width="10px" height="15px" alt="">
+            <p class="olhinho-p">1.M</p>
+        </div>
+        <section class="img_text">
+            <img id="img-drone"
+                src="https://f.i.uol.com.br/fotografia/2021/08/27/16301179966129a06cb462e_1630117996_3x2_rt.jpg" alt="">
+            <p class="p-text"></p>
+        </section>
+        <hr>
+        <div>
+            <img width="250px" src="https://i.pinimg.com/736x/8b/76/ab/8b76ab9c16d68085d8fba6d4e4db488c.jpg" alt="">
+        </div>
+        </article>
+        </section>
+        <article id="inscrevase">
+
+</body>
+<iframe width="100%" height="300px" src="./../../layout/footer.html" frameborder="0" scrolling="0"></iframe>
+
+</html>

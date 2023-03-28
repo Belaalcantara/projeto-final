@@ -141,3 +141,10 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
+.card-texto2{
+    font-size: 14px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}

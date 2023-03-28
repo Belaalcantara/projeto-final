@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="../assets/css/feedback style.css">
-        <title>Contato</title>
-    </head>
-    <body>
-        <div id="login">
-            <form class="card">
-                <div class="card-header">
-                    <h2>Contato</h2>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/feedback.style.css">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <iframe src="../layout/header.html" frameborder="0" width="100%"></iframe>
+    <div id="login">
+        <form class="card">
+            <div class="card-header">
+                <h2>feedback</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label for="usuario">Nome</label>
+                    <input type="text" id="usuario" autocomplete="off">
                 </div>
-                <div class="card-content">
-                    <div class="card-content-area">
-                        <label for="usuario">Nome</label>
-                        <input type="text" id="usuario" autocomplete="off">
-                    </div>
                 <div class="card-content">
                     <div class="card-content-area">
                         <label for="usuario">Email</label>
                         <input type="email" id="usuario" autocomplete="off">
                     </div>
                     <div class="card-content-area">
-                        <label for="comentário">Senha</label>
+                        <label for="comentário">Comentário</label>
                         <input type="password" id="comentário" autocomplete="off">
 
                     </div>
                 </div>
                 <div class="card-footer">
-                    <input type="submit" value="login" class="submit">
-                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                    <a id="link" href="../pages/sucesso.html" target="_parent">
+                        <button type="button" class="btn-primary">Enviar</button>
+                    </a>
+
                 </div>
-            </form>
-        </div>
-    </body>
+            </div>
+        </form>
+    </div>
+    <iframe src="../layout/footer.html" frameborder="0" width="100%" height="250px"></iframe>
+</body>
+
 </html>

@@ -1,101 +1,170 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-article{
-    background-color: black;
-    margin: 0;
-}
-#principal {
-    color: aliceblue;
-}
-/* card */
-.card{
-    width: 300px;
-    height: 460px;
-    margin: 25px;
-    background-color: white;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px black;
- 
-}
-/* Card header*/
-.card-header{
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-}
-.card-img{
-    min-width: 100%;
-    width: auto;
-    height: 200px;
-}
-/* Card body*/
-.card-body{
-    height: 100px;
-    padding: 15px;
-    text-align: center;
-    font-family: Arial;
-}
-.card-local{
-    font-size: 16px;
-    margin: 10px;
-}
-.card-titulo{
-    font-size: 32px;
-    margin: 15px 0;
-}
-.card-texto{
-    font-size: 14px;
-    width: 250px;
-    margin: 0 auto;
-}
-/* Card footer*/
-.card-footer{
-    margin-top: 15px;
-    text-align: center;
-    background-color: rgb(29, 0, 156);
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-}
-.card-footer a{
-    color: black;
-    display: block;
-    padding: 17px;
-    text-decoration: none;
-    font-family: Arial;
-    font-weight: 600;
-}
 body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
     text-align: center;
-    margin: auto;
-    padding: 10px;
-    background-size: cover;
-    text-align: center;
+}
+#cards{
+   display: flex;
+   margin: 10px;
+}
+.avo{
+    display: flex;
+    margin-left: 5px;
 }
 h1{
     text-align: center;
-    font-size: 40px;
-    font-family: Arial;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+}
+#h3divprincipal{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+#subnoticias{
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+    margin-left: 35px;
+}
+#h1card{
+    font-size: 22px;
     color: black;
-    margin: 0;
-    padding: 15px;
+    margin: 90px;
+    padding: 0;
 }
-.música1{
+#categorias{
+    text-align: center;
+    font-size: 30px;
+}
+#divpublicação2{
     display: flex;
-    padding: 60px;
+    padding: 5px;
 }
-.rock{
+#subnoticiastext{
+    font-size: 19px;
+    padding: 8px;
+    margin-left: 5px;
+}
+#imagens{
+    border-radius: 100%;
+    margin-left: 40px;
+    padding: 0;
+}
+#lançamento{
+    font-size: 30px;
+    padding: 5px;
+}
+#articlemae{
+    font-family: 'Times New Roman', Times, serif;
+}
+#comentário{
+    font-size: 25px;
+    text-align: center;
+}
+#publicado2{
+    font-size: 20px;
+    margin-left: 5px;
+}
+#fotos{
+    border-radius: 100%;
+    margin-left: 5px;
+    padding: 8px;
+}
+#nomes{
     display: flex;
     padding: 10px;
 }
-.samba{
-    display: flex;
-    padding: 10px;
+#hora{
+    font-size: 15px;
 }
-.pagode{
+#coment{
+    margin-left: 5px;
+    font-size: 21px;
+}
+#like{
     display: flex;
+    margin: 5px;
+}
+#base1{
+    margin-left: 150px;
+}
+#base2{
+    margin-left: 300px;
+}
+#p3{
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: left;
     padding: 10px;
+    margin-right: 5px;
+}
+h3{
+    font-size: 25px;
+    margin-left: 5px;
+}
+#propaganda{
+    text-align: center;
+}
+#divcomentarios1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+}
+#divcomentarios2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+}
+#divcomentarios3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+}
+#divcomentarios4{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+}
+.card_beleza1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+   margin: 15px;
+   -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+   box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+}
+.card_beleza2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+    margin: 15px;
+    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+}
+.card_beleza3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+    margin: 15px;
+    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+}
+.card_beleza4{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-left: 4px solid blue;
+    margin: 15px;
+    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+}
+#link{
+    text-decoration: none;
 }

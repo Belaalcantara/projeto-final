@@ -1,45 +1,14 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../assets/css/feedback.style.css">
-    <title>Feedback</title>
-</head>
-
 <body>
-    <iframe src="../layout/header.html" frameborder="0" width="100%"></iframe>
-    <div id="login">
-        <form class="card">
-            <div class="card-header">
-                <h2>feedback</h2>
-            </div>
-            <div class="card-content">
-                <div class="card-content-area">
-                    <label for="usuario">Nome</label>
-                    <input type="text" id="usuario" autocomplete="off">
-                </div>
-                <div class="card-content">
-                    <div class="card-content-area">
-                        <label for="usuario">Email</label>
-                        <input type="email" id="usuario" autocomplete="off">
-                    </div>
-                    <div class="card-content-area">
-                        <label for="comentário">Comentário</label>
-                        <input type="password" id="comentário" autocomplete="off">
+    <iframe src="../layout/header.html" frameborder="0" width="100%" scrolling="no"></iframe>
 
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <a id="link" href="../pages/sucesso.html" target="_parent">
-                        <button type="button" class="btn-primary">Enviar</button>
-                    </a>
-
-                </div>
-            </div>
-        </form>
-    </div>
-    <iframe src="../layout/footer.html" frameborder="0" width="100%" height="250px"></iframe>
-</body>
-
-</html>
+    <section>
+        <h1>DEIXE SEU COMENTARIO!</h1>
+        <p>
+    <section id="section1">
+        <form>
+            <h1 class="titulo">PREENCHA A BAIXO!</h1>
+            <form action="https://api.staticforms.xyz/submit" method="post"></form>
+            <label>NOME.</label>
+            <input type="name" name="nome." placeholder="digite seu nome, ex: Thiago Ferreira" autocomplete="off"; required> 
+            <label>motivo do contato.</label>
+            <textarea name="message"></textarea placeholder="escreva o porque esta nos contando." autocomplete="off"; required>

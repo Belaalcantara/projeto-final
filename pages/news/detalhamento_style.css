@@ -7,8 +7,7 @@ body {
     background-color: rgb(14, 14, 15);
     border-radius: 5px;
     border-left: 10px solid rgb(177, 31, 31);
-    margin-bottom: 60px;
-
+    margin-bottom: 60px; 
 }
 
 
@@ -44,17 +43,11 @@ p {
     height: 390px;
 }
 
-
-
-
 .img_text2 {
     display: inline;
     text-align: left;
 
 }
-
-
-
 
 .div-lateral {
     width: 30px;
@@ -92,16 +85,9 @@ p {
     margin-top: 50px;
 }
 
-
-
 #img-escola {
     width: 370px;
 }
-
-
-
-
-
 .p-text {
     text-align: justify;
     padding: 15px;
@@ -150,11 +136,7 @@ a {
     margin: 0;
     padding: 20px;
     height: 400px;
-
-
 }
-
-
 
 #botao-bolinha {
     width: 20px;

@@ -115,6 +115,10 @@ p {
 
 }
 
+#img-netflix {
+    width: 50px;
+}
+
 .containerImgandLink p,
 a {
     text-align: left;

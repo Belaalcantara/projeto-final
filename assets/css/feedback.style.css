@@ -78,3 +78,17 @@ body {
     color: #fff;
     text-decoration: none;
 }
+.btn-primary{
+    background-color: blue;
+    color: #fff;
+    padding: 5px 8px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: blue;
+}

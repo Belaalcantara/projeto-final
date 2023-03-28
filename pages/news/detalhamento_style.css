@@ -44,10 +44,7 @@ p {
     height: 390px;
 }
 
-#img-msc {
-    width: 250px;
-    padding-top: 15px;
-}
+
 
 
 .img_text2 {
@@ -112,38 +109,21 @@ p {
     border-radius: 3px;
 }
 
-#img-fisiculturismo {
-    margin-top: 20px;
-    width: 200px;
-    height: 150px;
 
-
-}
 
 #tia {
     margin-top: 50px;
 }
 
-#img-karin {
-    width: 200px;
-    border-radius: 3px;
-}
+
 
 #img-escola {
     width: 370px;
 }
 
-#img-cabelo {
-    width: 155px;
-}
 
-.hr {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 40px;
-    font-size: 10px;
-    color: rgb(1, 1, 76);
-}
+
+
 
 .p-text {
     text-align: justify;
@@ -197,9 +177,7 @@ a {
 
 }
 
-#banner_final {
-    border-radius: 50px;
-}
+
 
 #botao-bolinha {
     width: 20px;

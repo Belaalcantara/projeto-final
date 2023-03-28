@@ -88,29 +88,6 @@ p {
     margin-top: 0%;
 }
 
-#img-netflix {
-    width: 255px;
-    margin-top: 0%;
-}
-
-#img-drone {
-    width: 255px;
-    margin-top: 0%;
-
-}
-
-#img-bolsonaro {
-    width: 255px;
-    border-radius: 3px;
-}
-
-#img-will {
-    width: 165px;
-    border-radius: 3px;
-}
-
-
-
 #tia {
     margin-top: 50px;
 }
@@ -264,4 +241,7 @@ img {
 .fotos{
    width: 50px;
    height: 40px;
+}
+.img-geral{
+    width: 250px;
 }

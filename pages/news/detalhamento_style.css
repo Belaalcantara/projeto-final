@@ -190,17 +190,18 @@ img {
 }
 
 #comentário {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
 #publicado2 {
     font-size: 20px;
-    margin-left: 5px;
+    
 }
 
 #nomes {
     display: flex;
+    flex-direction: row;
     padding: 15px;
 }
 
@@ -211,13 +212,14 @@ img {
 }
 
 #coment {
-    margin-left: 5px;
+  
     font-size: 21px;
 }
 
 #like {
 
     margin: 5px;
+    margin-left: 1100px;
 }
 
 .fotos{

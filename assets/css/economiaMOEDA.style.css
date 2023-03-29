@@ -93,7 +93,7 @@ p {
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    color: black;
+   color: black;
 
 }
 
@@ -110,7 +110,7 @@ p {
 .imgOlhoandCounter {
     display: flex;
     align-items: center;
-
+    color: rgb(160, 160, 160);
     padding-top: 0%;
 
 }

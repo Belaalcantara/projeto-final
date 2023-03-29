@@ -136,6 +136,7 @@ a {
     margin: 0;
     padding: 20px;
     height: 400px;
+    width: 300px;
 }
 
 #botao-bolinha {
@@ -227,5 +228,8 @@ img {
    height: 40px;
 }
 .img-geral{
+    width: 250px;
+}
+#img-netflix{
     width: 250px;
 }

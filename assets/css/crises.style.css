@@ -94,3 +94,10 @@ margin-bottom: 20px;
 #img-dorne{
     width: 250px;
 }
+.like, p{
+    display: flex;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    padding-top: 0%;
+
+}

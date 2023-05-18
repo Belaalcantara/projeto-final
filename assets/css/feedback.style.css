@@ -14,15 +14,16 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     padding: 10px 45px;
     width: 600px;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     box-shadow: rgba(17, 28, 175, 0.4) 5px 5px, rgba(13, 25, 80, 0.349) 10px 10px, rgba(66, 58, 143, 0.2) 15px 15px, rgba(46, 47, 112, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 35px 35px;
     color: white; 
     margin-block: 50px; 
     border-radius: 20px;
-    margin-left: 332px;
+    margin-left: 400px;
 }
 button{
     background-color: rgb(130, 124, 165);
@@ -44,4 +45,8 @@ input:focus{
 }
 .titulo{
     font-family: 'Prata', serif;
+}
+
+.single-input{
+    text-align: center;
 }

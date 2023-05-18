@@ -104,3 +104,11 @@ button {
     width: 30px;
     border-radius: 10px;
 }
+@media(max-width:600px){
+    .menu{
+        padding-left: 65px;
+    }
+    .buscar{
+        display: none;
+    }
+}

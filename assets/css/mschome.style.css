@@ -180,3 +180,174 @@ h3{
 #link{
     text-decoration: none;
 }
+    @media(max-width: 600px) {
+     #articlepai, #articlemae{
+        text-align: center;
+        justify-content: center;
+     }
+
+        #comentarios{
+         width: 100%;
+          height: 100%; 
+          float: right; 
+          position: fixed; 
+          font-size: 20px;
+
+     }
+     #divprincipal {
+        text-align: center
+        width: 100vh
+        border-radius: 5px;
+        text-align: center;
+
+     }
+     body{
+        width: 400px;
+        font-size: 1px;
+        text-align: center; 
+     }
+     #imagem1 {
+        text-align: center;
+        width: 100%;
+        height: 50vh;
+     }
+     .main {
+        text-align: center;
+        width: 10%;
+        height: 10%;
+     }
+     #cards{
+     display: flex;
+     margin: 10px;
+     text-align: center;
+    } 
+    #articlemae {
+        display: none;
+        
+    }
+#articlepai {
+    font-size: 10px;
+    width: 70%;
+    text-align: center;
+
+
+
+}
+#h3divprincipal {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 70px;
+
+}
+#imgmsc {
+    width: 20px;
+    height: 20%;
+    margin-left: 60px;
+}
+#subnoticias {
+    text-align: center;
+    font-size: 25px;
+
+
+}
+#subnoticiastext{
+    text-align: center;
+    font-size: 15px;
+    text-align: justify;
+    justify-content: center;
+
+}
+#cards{
+    width: 100px;
+    height: 150px;
+    text-align: center;
+}
+.card_beleza1{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+
+}
+#divpublicação2{
+    text-align: center;
+    flex-direction: column;
+    
+}
+#divpublicação2{
+    text-align: center;
+    width: 100%;
+}
+.samb{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    margin-left: 60px;
+    
+}
+#imagem1{
+    margin-left: 50px;
+
+}
+#musica{
+    margin-left: 70px;
+
+}
+#p3{
+    margin-left: 90px;
+    font-size: 20px;
+
+}
+#subnoticias{
+    margin-left: 100px;
+
+}
+.irmdn{
+    margin-left: 60px;
+    height: 250px;
+    width: 250px;
+}
+#subnoticiastext{
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+#subnoticiastext{
+    margin-left: 80px;
+
+}
+.leosnt{
+    margin-left: 60px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+
+}
+.meumardo{
+    margin-left: 60px;
+    margin-right: 10px;
+    height: 250px;
+    width: 250px;
+
+}
+.blelsh{
+    margin-left: 60px;
+    height: 250px;
+    width: 250px;
+}
+.roxtt{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 250px;
+    height: 250px;
+    
+}
+#subnoticiastext {
+    margin-left: 100px;
+}
+.pop{
+    width: 250px;
+    height: 250px;
+}
+}
+

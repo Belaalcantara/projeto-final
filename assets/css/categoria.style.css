@@ -106,3 +106,31 @@ h1{
 }
 
 
+@media(max-width: 600px){
+
+    .sec1{
+        flex-direction: column;
+        display: flex;
+        height: calc(100%/3);
+    }
+    .sec2{
+        flex-direction: column;
+        display: flex;
+        height: calc(100%/3);
+    }
+    .container{
+        flex-direction: column;
+        height: calc(100%/3);
+        text-align: center;
+        margin-left: 50px;
+}
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        margin-left: auto;
+    }
+   
+}
+

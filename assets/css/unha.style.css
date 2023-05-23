@@ -172,6 +172,7 @@ h2 {
     margin: 10px;
     height: 160px;
     width: 160px;
+    text-align: center;
 }
 #propaganda{
     padding: 10px;
@@ -179,6 +180,7 @@ h2 {
 
 #footer{
     margin: -4px;
+}
 
 .sect2_{
     text-align: center;

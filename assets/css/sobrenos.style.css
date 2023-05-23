@@ -82,3 +82,54 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
 }
+
+/*RESPONSIVIDADE*/
+
+@media(max-width: 600px){
+    h2{
+        text-align: center;
+    }
+    .elenco1{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        width: calc(100%/3);
+        
+    }
+    .elenco2{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        width: calc(100%/3);
+    }
+    article{
+        flex-direction: column;
+    }
+    .container{
+        
+        flex-direction: column;
+    }
+    .card-header{
+        flex-direction: column;
+    }
+    .historia{
+        flex-direction: column;
+    }
+    .img{
+        width: 250px;
+        height: 250px;
+    }
+    .p1{
+        flex-direction: column;
+        text-align: justify;
+    }
+    .h{
+        text-align: center;
+    }
+    #pai{
+        flex-direction: column;
+    }
+    .separado{
+        flex-direction: column;
+    }
+}

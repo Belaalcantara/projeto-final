@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     margin: 0;
 }
 
@@ -182,4 +182,43 @@ margin-right:90px;
         height: 1vh;
     }
     
+}
+@media(max-width:600px){
+  
+  
+    #bisavo{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    display: inline-block;
+    
+   }
+   .div-grande1{
+
+   }
+
+   .div-grande-subnews{
+     width: 80vw;
+     background-color: rgb(251, 251, 251);
+     margin-left: 15px;
+
+   }
+
+   .div-principal{
+      margin-right: 20px;
+      width: 70vw;
+   }
+   .imgolho{
+    width:30px;
+   }
+   img{
+    width: 75vw;
+   }
+   #mae{
+    background-color: #ffffff;
+   }
+   .h3-divgrande{
+    font-size: 15px;
+   }
+
+   
 }

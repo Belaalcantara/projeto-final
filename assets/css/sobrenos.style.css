@@ -104,6 +104,8 @@ h2{
     }
     article{
         flex-direction: column;
+        display: inline-block;
+
     }
     .container{
         
@@ -114,6 +116,7 @@ h2{
     }
     .historia{
         flex-direction: column;
+        display: inline-block;
     }
     .img{
         width: 250px;
@@ -122,14 +125,23 @@ h2{
     .p1{
         flex-direction: column;
         text-align: justify;
+        flex-direction: column;
+        display: inline-block;
     }
     .h{
         text-align: center;
+        flex-direction: column;
+        display: inline-block;
     }
     #pai{
         flex-direction: column;
+        display: inline-block;
+
     }
     .separado{
         flex-direction: column;
+    }
+    .card-1{
+        height: 470px;
     }
 }

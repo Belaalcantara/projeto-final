@@ -1,4 +1,5 @@
 var array = [];
+var array1 = [];
 
 function lista(){
     let titulo = document.getElementById("inputtitulo").value;

@@ -117,24 +117,39 @@ h2{
     .historia{
         flex-direction: column;
         display: inline-block;
+        margin-left: 5px;
     }
     .img{
-        width: 250px;
-        height: 250px;
+        width: 130px;
+        height: 130px;
+        margin-left: 100px;
+        margin-right: 120px;
+
+        
     }
-    .p1{
-        flex-direction: column;
+    #sbrns{
+        margin-left: 50px;
+        margin-right: 70px;  
+    }
+    #p1{
+   
         text-align: justify;
-        flex-direction: column;
-        display: inline-block;
+        margin-left: 25spx;
+        font-size: 15px;
+ 
+   
     }
-    .h{
+    #h{
+
         text-align: center;
         flex-direction: column;
         display: inline-block;
+        margin-left: 102px;
+        margin-right: -100px;
     }
-    #pai{
-        flex-direction: column;
+    .pai{
+      text-align: center;
+   
         display: inline-block;
 
     }

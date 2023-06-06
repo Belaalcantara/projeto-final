@@ -159,23 +159,23 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
-@media(max-width: 600px){
+@media(max-width: 100vh){
     h1{
         text-align: center;
         font-family: Lucida Handwriting;
     }.sect1{
         flex-direction: column;
-        margin-left: -15px;
+        margin-left: -5%;
        
 
     }
     .img1{
         text-align: center;
-        width: 370px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
     }
     .sobre{
-        width: 350px;
+        width: 90%;
     }
     .card-footer{
         text-align: center;

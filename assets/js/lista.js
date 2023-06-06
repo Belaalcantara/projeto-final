@@ -1,15 +1,34 @@
-let adicionar;
-let adicionar2;
+var add = [];
+var add2 = [];
 
-function add() {
+function adicionar() {
+  let titulo = document.getElementById("inputtitulo").value;
+  let data = document.getElementById("Datainput").value;
+  let descricao = document.getElementById("Descriçaoinput").value;
+  let autor = document.getElementById("autorinput").value;
+  
+  add.push(titulo);
+  add.push(data);
+  add.push(descricao);
+  add.push(autor);
 
-    let titulo = document.getElementById("inputtitulo").value;
-    let descricao = document.getElementById("Descriçaoinput").value;
-    let autor = document.getElementById("autorinput").value;
-    let data = document.getElementById("Datainput").value;
+  add2.push(add);
+  
+  adicionar2();
+}
 
-    adicionar = document.getElementById("div3").value;
-    adicionar2 =  titulo + data + descricao + autor;
+function adicionar2() {
+  let armazenar = document.getElementById("div3");
+  let armazenar2 = ""; 
 
-    adicionar.innerHTML += adicionar2;
+  for (let i = 0; i < add.length; i++) {
+    let lista = add[i];
+    
+    armazenar2 += "Título:" + lista.titulo;
+    armazenar2 += "Data:" + lista.data ;
+    armazenar2 += "Descrição:" + lista.descricao ;
+    armazenar2 += "Autor:" + lista.autor ;
+  }
+  
+  armazenar.innerHTML = armazenar2;
 }

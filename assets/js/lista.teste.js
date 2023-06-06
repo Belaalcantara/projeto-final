@@ -1,31 +1,25 @@
 var add = [];
+var add2 = [];
 
 function adicionar() {
   let titulo = document.getElementById("titulo").value;
   let data = document.getElementById("data").value;
   let descricao = document.getElementById("descricao").value;
   let autor = document.getElementById("autor").value;
-  
-  let armazenar = {
-    titulo: `${titulo}`,
-    data: `${data}`,
-    descricao: `${descricao}`,
-    autor: `${autor}`
-  }
-  
-  add.push(armazenar);
-  
-  document.getElementById("titulo").value = "";
-  document.getElementById("data").value = "";
-  document.getElementById("descricao").value = "";
-  document.getElementById("autor").value = "";
+ 
+  add.push(titulo);
+  add.push(data);
+  add.push(descricao);
+  add.push(autor);
+  add2.push(add);
   
   adicionar2();
 }
 
+let armazenar3 = "";
+
 function adicionar2() {
-  let armazenar2 = document.getElementById("div");
-  let armazenar3 = "";
+  const armazenar2 = document.getElementById("div");
   
   for (let i = 0; i < add.length; i++) {
     let lista = add[i];

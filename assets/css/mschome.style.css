@@ -225,7 +225,7 @@ h3{
 
     }
     #p3{
-        text-align: center;
+        text-align: justify;
         font-size: 2vh;
     }
     #subnoticias{
@@ -238,7 +238,7 @@ h3{
     width: 100%;
     height: 30%;
     margin-right: 80%;
-    text-align: center;
+    text-align: justify;
     margin-left: 60%;
 }
     }
@@ -247,13 +247,13 @@ h3{
     height: 100%;
     margin-left: 1%;
     margin-right: -1%;
-    text-align: center;
+    text-align: justify;
 
  }
  #lsnt{
     width: 40%;
     height: 100%;
-    text-align: center;
+    text-align: justify;
  }
 
  #crnvl{
@@ -261,37 +261,37 @@ h3{
     height: 100%;
     margin-left: 1%;
     margin-right: 5%;
-    text-align: center;
+    text-align: justify;
 
  }
  #subnoticiastext{
-    text-align: center;
+    text-align: justify;
     font-size: 2vh;
     margin-right: 15%;
     margin-left: 15%;
  }
  #thweeknd{
-    text-align: center;
+    text-align: justify;
     width: 40%;
     height: 15vh;
     margin-right: 10%;
     margin-left: 10%;
 	}
 #categorias{
-    text-align: center;
+    text-align: justify;
     font-size: 3vh;
     margin-right: 15%;
     margin-left: 15%;
 }
 
     #subnoticias2{
-        text-align: center;
+        text-align: justify;
         font-size: 2vh;
         margin-right: 100%;
         margin-left: -100%;
     }
     #cards{
-        text-align: center;
+        text-align: justify;
         width: 25%;
         display: inline-block;
         height: 100%;
@@ -304,13 +304,17 @@ h3{
     width: 250px;
     height: 250px;
     padding: 0;
+    text-align: justify;
 }
 #subnoticiastext2{
     text-align: justify;
     font-size: 15px;
+    padding: 7px;
+    margin-left: 10px;
+    margin-right: 18px;
 }
 #rxxt{
-    text-align: center;
+    text-align: justify;
     width: 110px;
     height: 110px;
     margin-right: 10px;

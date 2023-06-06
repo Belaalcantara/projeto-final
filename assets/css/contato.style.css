@@ -98,9 +98,30 @@ body {
         height: 100%;
         
     }
-    #card{
-        width: 50%;
-        height: 50%;
+    .card{
+        width: 30vh;
+        height: 35vh;
         display: inline-block;
+        margin-left: 14px;
+        margin-right: -19px;
+        margin-top: 40px;
     }
+    #login{
+        width: 50%;
+        height: 53vh;
+        display: inline-block;
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    #ctt{
+        margin-right: -20px;
+        margin-left: -16px;
+        text-align: center;
+        
+    }
+
+.card-header::after{
+    display: none;
+}
+    
 }

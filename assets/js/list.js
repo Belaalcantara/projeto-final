@@ -66,41 +66,82 @@ function add2(){
 
 let pai = [];
 let filhos = [];
-let informacoes = []; 
+let informacoes = [];
 var titulo = "";
 var data = "";
 var descricao = "";
-var autor= "";
+var autor = "";
+var auxiliarData = document.getElementById("data").innerHTML;
 
-function lista(){
+
+
+function lista() {
 
     titulo = document.getElementById("titulo").value;
     data = document.getElementById("data").value;
     descricao = document.getElementById("descricao").value;
-    autor= document.getElementById("autor").value;
-
- document.getElementById("titulo").value = "";
-document.getElementById("data").value = "";
-document.getElementById("descricao").value = "";
-document.getElementById("autor").value = "";
-
-
-console.log(pai)
+    autor = document.getElementById("autor").value;
+   
+    document.getElementById("titulo").value = "";
+    document.getElementById("data").value = "";
+    document.getElementById("descricao").value = "";
+    document.getElementById("autor").value = "";
 
 
-filhos.push(titulo)
-filhos.push(data)
-filhos.push(descricao)
-filhos.push(autor)
-pai.push(filhos)
+    console.log(pai);
 
-adicionar2();
+
+    filhos.push(titulo);
+    filhos.push(data);
+    filhos.push(descricao);
+    filhos.push(autor);
+    pai.push(filhos);
+
+    filhos = [];
+
+
+    adicionar02();
+    atualizarlista();
 
 
 }
 
-function adicionar02(){
-    
+function adicionar02() {
+
+    for (let i = 0; i < pai.length; i++) {
+        informacoes = pai[i];
+    }
+
+}
+
+function atualizarlista() {
+    let conteudo = "";
+
+    for (let i = 0; i < pai.length; i++) {
+        const arrayAux = pai[i];
+
+        conteudo += `
+    <li class="cardItem">
+    <div>
+    <h2>${arrayAux[0]}</h2>
+    <p>Data de publicação: ${arrayAux[1]}</p>
+    <p>Descrição: ${arrayAux[2]}</p>
+    <p>Autor: ${arrayAux[3]}</p>
+    </div>
+    <button id="botao"type="button" onclick="deletar(${i})"><img src=https://cdn-icons-png.flaticon.com/512/126/126468.png width="18px" height="20px"></button>
+    </li>
+    `
+
+    }
+
+
+    document.getElementById("paragrafo").innerHTML = conteudo;
+
+}
+
+function deletar(index) {
+    pai.splice(index, 1);
+    atualizarlista();
 }
 
 

@@ -45,3 +45,47 @@ input:focus{
 .titulo{
     font-family: 'Prata', serif;
 }
+
+
+@media(max-width: 600px){
+.single-input{
+        width: 50px;
+        height: 90px;
+        margin-left: -110px;
+        margin-right: -100px;
+    }
+.feedback{
+        width: 50px;
+        height: 50px;
+
+    }
+    #tltl{
+        font-size: 3vh;
+
+    }
+    #quadrado{
+        height: 70%;
+        width: 70%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #nm{
+        margin-left: 120px;
+        margin-right: 30px;
+    }
+    #cmnt{
+        margin-left: 90px;
+        margin-right: 10px;
+    }
+    .btn btn-green{ 
+        width: 90%;
+        height: 90%;
+        font-size: 16px;
+        color: white;
+    }
+    #bt{
+        font-size: 16px;
+        color: white;
+    }
+
+}

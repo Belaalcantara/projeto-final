@@ -17,3 +17,10 @@ body{
     background-color: blue;
     color: #fff;
 }
+@media(max-width: 600px){
+    #crt{
+        width: 75%;
+        height: 75%;
+    }
+
+}

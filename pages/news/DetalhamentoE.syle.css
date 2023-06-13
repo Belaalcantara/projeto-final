@@ -232,4 +232,100 @@ img {
 }
 #img-netflix{
     width: 250px;
-}
+
+
+
+        margin-left: 40px;
+    }
+    #img-bolsonaro{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-netflix{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-sesi{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-comotreidragao{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #like{
+        display: inline-block;
+        flex-direction: column;
+    }
+   
+    @media(max-width: 400px){
+
+
+        #avo{
+                display: inline-block;
+                background-color: rgb(255, 255, 255);
+            }
+            #div-principal{
+                background-color: rgb(0, 0, 0);
+                width: 100%;
+        
+            }
+        
+            #img-1{
+             width: 165vw;
+            }
+            .div-grande-subnews{
+                width: 180vw;
+                
+            }
+            #mae{
+                background-color: rgb(255, 255, 255);
+            }
+            p{
+                font-size: 28px;
+         
+            }
+            .p-text{
+                 font-size: 28px;
+            }
+        
+            .imagem{
+                width: 170vw;
+                height: 85vh;
+            }
+            #img-3{
+                width:170vw;
+            }
+             
+            .divcomentarios1{
+                background-color: rgb(255, 255, 255);
+                -webkit-box-shadow: 9px 12px 5px 0px rgba(61,75,166,0.63);
+        -moz-box-shadow: 9px 12px 5px 0px rgba(61,75,166,0.63);
+        box-shadow: 9px 12px 5px 0px rgba(61,75,166,0.63);
+         margin-left: 20px;
+         width: 170vw;
+            }
+           .h3-divgrande{
+            font-size: 35px;
+            color: rgb(105, 2, 2);
+           }
+        
+        .img-geral{
+            width: 130vw;
+        }
+         h2{
+            font-size: 35px;
+            
+         }
+    
+         .coracaozinho{
+            width:40vw;
+         }
+        #foto2{
+            width: 180vw !important;
+        }
+       
+    
+        }
+        
+        

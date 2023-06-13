@@ -59,12 +59,12 @@ body {
 
 #div-principal {
     display: flex;
-    background-color: rgb(14, 14, 15);
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
     border-left: 10px solid rgb(177, 31, 31);
     margin-right: 15px;
     margin-bottom: 60px;
-    box-shadow: rgba(7, 12, 80, 0.4) 5px 5px, rgba(22, 6, 109, 0.3) 10px 10px, rgba(22, 12, 110, 0.2) 15px 15px, rgba(25, 8, 100, 0.1) 20px 20px, rgba(12, 22, 114, 0.05) 25px 25px;
+    box-shadow: rgba(9, 22, 86, 0.4) 5px 5px, rgba(22, 6, 109, 0.3) 10px 10px, rgba(22, 12, 110, 0.2) 15px 15px, rgba(25, 8, 100, 0.1) 20px 20px, rgba(12, 22, 114, 0.05) 25px 25px;
 
 }
 
@@ -92,34 +92,34 @@ a {
 
 /*responsividade*/
 
-@media(max-width: 400px) {
+@media(max-width: 700px) {
 
 
     #bisavo {
         text-align: center;
         margin-right: 0;
-        display: inline-block;
         text-align: center;
-        padding-bottom: 5px;
-
+        display: inline-block;
+       
 
     }
 
 
     #mae {
         background-color: rgb(255, 255, 255);
-        width: 62vw;
+       margin-left: 20px;
+       width: 90%;
+       margin-top: 35px;
+       border-radius: 7px;
     }
-
-
 
 
     img {
-        width: 40vw;
+        width: 90vw;
 
     }
 
- 
+
 
     .imgolho {
         width: 8vw;
@@ -127,14 +127,14 @@ a {
     }
 
     .div-grande1 {
-
-        width: 70vw;
-
+        width: 100vw;
     }
 
     #img-principal {
-        width: 57vw;
+        width: 90vw;
+        height: 30vh;
         margin-left: 20px;
+        padding-top: 30px;
         border-radius: 5px;
     }
 
@@ -143,24 +143,25 @@ a {
     }
 
     .img-geral {
-        width: 45vw;
-        margin-right: 500px;
+        width: 80vw;
+      margin-right: 0px;
 
     }
 
     .div-grande-subnews {
-        margin-left: 15px;
-        width: 55vw;
+        margin-left: 12px;
+        width: 90vw;
         background-color: rgb(255, 255, 255);
 
 
     }
 
     #div-principal {
-        width:  67vw;
-        height: 22vh;
+        width: 100vw;
+        height: 40vh;
         background-color: #000000;
-  }
+    }
+
     .h3-divgrande {
         font-size: 16px;
         padding-top: 5px;
@@ -168,18 +169,25 @@ a {
     }
 
     #titulo1 {
-        font-size: 23px;
+        font-size: 30px;
+        margin-left: 10px;
+        
     }
 
     #titulos {
-
-font-size: 25px;
-margin-right:90px;
+        color: #540404;
+        font-size: 25px;
+        margin-left: 90px;
 
     }
-    .imgolho{
+
+    .imgolho {
         width: 3vw;
         height: 1vh;
     }
-    
+
+    #img_text{
+        display: inline-flex;
+    }
+
 }

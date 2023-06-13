@@ -67,7 +67,7 @@ h2 {
 @media(max-width: 600px){
     p {
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
         margin-top: 30px;
         margin-bottom: 50px;
         margin: 53px 53px;
@@ -99,6 +99,10 @@ h2 {
 
     h2{
       margin: 50px 50px;
+    }
+
+    h1{
+        font-size: 25px;
     }
 }
 

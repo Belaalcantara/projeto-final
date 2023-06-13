@@ -1,0 +1,52 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+
+}
+
+#div1 {
+    background-color: #656d8c;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px black;
+    padding: 30px;
+    padding-bottom: 10px;
+    width: 900px;
+    margin-left: 175px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+#footer {
+    margin: -3px;
+}
+
+#button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 30);
+    border-radius: 5px;
+}
+#div{ 
+    background-color: #656d8c;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px;
+    padding-bottom: 50px;
+    width: 900px;
+    margin-left: 175px;
+    margin-top: 15px;
+}
+#botão{
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 30);
+    border-radius: 5px;
+
+}
+#botão1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 30);
+    border-radius: 5px;
+}
+

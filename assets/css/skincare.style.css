@@ -167,9 +167,10 @@ h4 {
 }
 
 #fotos {
-    border-radius: 100%;
     margin-left: 5px;
     padding: 8px;
+    width: 800px;
+    height: 450px;
 }
 
 .avo {
@@ -185,4 +186,142 @@ h4 {
 }
 #footer{
     margin: -4px;
+}
+#imgpropaganda{
+    width: 260px
+}
+@media (max-width: 600px) {
+
+    .avo,
+    #articlepai,
+    #articlemae {
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+        justify-content: center;
+        padding: 0%;
+
+    }
+
+    #articlepai {
+        margin: 0%;
+    }
+
+    #skin{
+        font-size: 38px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 23px;
+    }
+    .sect1 {
+        margin-left: -0%;
+        width: 93vw;
+        margin-right: -3%;
+        flex-direction: column;
+        padding: 1%;
+        margin-bottom: 2%;
+
+    }
+
+    .sect2 {
+        margin-left: -0%;
+        width: 93vw;
+        margin-right: -3%;
+        flex-direction: column;
+        padding: 1%;
+        margin-bottom: 2%;
+
+    }
+    .sect3{
+        margin-left: -0%;
+        width: 93vw;
+        margin-right: -3%;
+        flex-direction: column;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+
+    #div1 {
+        flex-direction: column;
+    }
+
+    #fotos {
+        width: 90vw;
+        height: 60vh;
+    }
+    #fotos2{
+        width: 5vw;
+    }
+
+    #propaganda {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0%;
+    }
+
+    #imgpropag {
+        width: 80vw;
+        text-align: center;
+    }
+    #p1 {
+        text-align: center;
+        font-size: 25px;
+        margin-left: 1%;
+        padding: 1px;
+    }
+    #p2{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+    #p4{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+    #p3{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 3%;
+        padding: 5px;
+    }
+    #comentário {
+        font-size: 20px;
+        text-align: center;
+    }
+    #publicado2 {
+        font-size: 18px;
+        margin-left: 7px;
+    }
+    #hora {
+        font-size: 15px;
+    }
+    #coment {
+        margin-left: 5px;
+        font-size: 19px;
+    }
+    #like {
+        display: flex;
+        margin: 5px;
+        font-size: 15px;
+    }
+    .sect5{
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+    h3{
+        font-size: 18px;
+    }
+
+    #skin2 {
+        font-size: 25px;
+        margin-left: 5%;
+    }
 }

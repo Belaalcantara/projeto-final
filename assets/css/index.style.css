@@ -136,7 +136,7 @@ p {
 
 #img-fisiculturismo {
     margin-top: 20px;
-    width: 200px;
+    width: 350px;
     height: 150px;
 
 
@@ -265,4 +265,125 @@ margin-bottom: 20px;
 
 img{
     border-radius: 10px;
+}
+@media(max-width: 600px){
+    #mae{
+        padding-bottom: 10px;
+        flex-direction: column;
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+        width: 400px;
+        margin-left: 7px;
+
+    }
+    #pai1{
+        flex-direction: column;
+        width: 80%;
+    }
+    #div-principal{
+        width: 400px;
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+    #img-mariele{
+        width: 350px;
+    }
+    .div-grande{
+        width: 95%;
+
+    }
+    .tio{
+        flex-direction: column;
+        width: 40px;
+        margin-left: 6px;
+    }
+    #div-grande-subnews{
+        flex-direction: column;
+        width: 70%;
+        height: 60%;
+        text-align: center;
+    }
+    #tia{
+        flex-direction: column;
+        display: inline-block;
+        width: 420px;
+    }
+    body{
+        padding-bottom: 10px;
+        flex-direction: column;
+        display: inline-block;
+
+    }
+    #banner_final{
+        width: 400px;
+        height: 260px;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    #avo{
+        display: inline-block;
+        margin-left: 10px;
+        width: 420px;
+    }
+    #h3-divgrande{
+        text-align: justify;
+    }
+    .img_text{
+        flex-direction: column;
+    }
+    #img-fisiculturismo{
+        text-align: center;
+        width: 250px;
+        height: 200px;
+        margin-left: 50px;
+    }
+    #karen{
+        text-align: center;
+        width: 250px;
+        margin-left: 50px;
+    }
+    #maisa{
+        text-align: center;
+        width: 250px;
+        margin-left: 50px;
+    }
+    #enem{
+        text-align: center;
+        width: 250px;
+        margin-left: 50px;
+    
+    }
+    #h3-divgrande{
+        text-align: justify;
+    }
+    .a-main{
+        width: 350px;
+    }
+    .img-comotreidragao{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-sesi{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-netflix{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-bolsonaro{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-drone{
+        text-align: center;
+        margin-left: 40px;
+    }
+    .ultima{
+        text-align: center;
+        margin-left: 40px;
+    }
+
 }

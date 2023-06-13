@@ -82,3 +82,84 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
 }
+
+/*RESPONSIVIDADE*/
+
+@media(max-width: 600px){
+    h2{
+        text-align: center;
+    }
+    .elenco1{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        width: calc(100%/3);
+        
+    }
+    .elenco2{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        width: calc(100%/3);
+    }
+    article{
+        flex-direction: column;
+        display: inline-block;
+
+    }
+    .container{
+        
+        flex-direction: column;
+    }
+    .card-header{
+        flex-direction: column;
+    }
+    .historia{
+        flex-direction: column;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .img{
+        width: 130px;
+        height: 130px;
+        margin-left: 100px;
+        margin-right: 120px;
+
+        
+    }
+    #sbrns{
+        margin-left: 50px;
+        margin-right: 70px;  
+    }
+    #p1{
+   
+        text-align: justify;
+        margin-left: 25spx;
+        font-size: 15px;
+ 
+   
+    }
+    #h{
+
+        text-align: center;
+        flex-direction: column;
+        display: inline-block;
+        margin-left: 102px;
+        margin-right: -100px;
+    }
+    .pai{
+      text-align: center;
+   
+        display: inline-block;
+
+    }
+    .separado{
+        flex-direction: column;
+    }
+    .card-1{
+        height: 470px;
+    }
+    .card-texto{
+        font-size: 13px;
+    }
+}

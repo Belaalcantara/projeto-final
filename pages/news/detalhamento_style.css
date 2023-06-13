@@ -7,8 +7,7 @@ body {
     background-color: rgb(14, 14, 15);
     border-radius: 5px;
     border-left: 10px solid rgb(177, 31, 31);
-    margin-bottom: 60px;
-
+    margin-bottom: 60px; 
 }
 
 
@@ -44,20 +43,11 @@ p {
     height: 390px;
 }
 
-#img-msc {
-    width: 250px;
-    padding-top: 15px;
-}
-
-
 .img_text2 {
     display: inline;
     text-align: left;
 
 }
-
-
-
 
 .div-lateral {
     width: 30px;
@@ -91,60 +81,13 @@ p {
     margin-top: 0%;
 }
 
-#img-netflix {
-    width: 255px;
-    margin-top: 0%;
-}
-
-#img-drone {
-    width: 255px;
-    margin-top: 0%;
-
-}
-
-#img-bolsonaro {
-    width: 255px;
-    border-radius: 3px;
-}
-
-#img-will {
-    width: 165px;
-    border-radius: 3px;
-}
-
-#img-fisiculturismo {
-    margin-top: 20px;
-    width: 200px;
-    height: 150px;
-
-
-}
-
 #tia {
     margin-top: 50px;
-}
-
-#img-karin {
-    width: 200px;
-    border-radius: 3px;
 }
 
 #img-escola {
     width: 370px;
 }
-
-#img-cabelo {
-    width: 155px;
-}
-
-.hr {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 40px;
-    font-size: 10px;
-    color: rgb(1, 1, 76);
-}
-
 .p-text {
     text-align: justify;
     padding: 15px;
@@ -172,6 +115,14 @@ p {
 
 }
 
+#img-netflix {
+
+    width: 350px;
+
+    width: 150px;
+
+}
+
 .containerImgandLink p,
 a {
     text-align: left;
@@ -193,12 +144,6 @@ a {
     margin: 0;
     padding: 20px;
     height: 400px;
-
-
-}
-
-#banner_final {
-    border-radius: 50px;
 }
 
 #botao-bolinha {
@@ -253,17 +198,18 @@ img {
 }
 
 #comentário {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
 #publicado2 {
     font-size: 20px;
-    margin-left: 5px;
+    
 }
 
 #nomes {
     display: flex;
+    flex-direction: row;
     padding: 15px;
 }
 
@@ -274,16 +220,124 @@ img {
 }
 
 #coment {
-    margin-left: 5px;
+  
     font-size: 21px;
 }
 
 #like {
 
     margin: 5px;
+    margin-left: 1100px;
 }
 
 .fotos{
    width: 50px;
    height: 40px;
+}
+.img-geral{
+    width: 250px;
+}
+
+@media(max-width: 600px){
+    #mae{
+        padding-bottom: 10px;
+        flex-direction: column;
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+        width: 380px;
+        margin-left: 12px;
+
+    }
+    #pai1{
+        flex-direction: column;
+        width: 100px;
+        margin-left: 2px;
+        margin-right: 20px;
+    }
+    #div-principal{
+        width: 370px;
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+   
+    .div-grande{
+        margin-right: 30px;
+        width: 300px;
+        margin-right: 50px;
+
+    }
+    .tio{
+        flex-direction: column;
+        width: 50px;
+    }
+    #div-grande-subnews{
+        flex-direction: column;
+        width: 150px;
+        height: 180px;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    #tia{
+        flex-direction: column;
+        display: inline-block;
+        width: 390px;
+    }
+    body{
+        padding-bottom: 10px;
+        flex-direction: column;
+        display: inline-block;
+
+    }
+    #banner_final{
+        width: 400px;
+        height: 260px;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    #avo{
+        display: inline-block;
+        margin-left: 10px;
+        width: 420px;
+    }
+    #h3-divgrande{
+        text-align: justify;
+    }
+    #img-1{
+        width: 330px;
+    }
+    #img-2{
+        width: 300px;
+        margin-left: 17px;
+    }
+    #img-3{
+        width:300px ;
+        margin-left: 10px;
+    }
+    #img-drone{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-bolsonaro{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-netflix{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-sesi{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #img-comotreidragao{
+        text-align: center;
+        margin-left: 40px;
+    }
+    #like{
+        display: inline-block;
+        flex-direction: column;
+    }
 }

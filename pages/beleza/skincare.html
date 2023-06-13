@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="../../assets/css/skincare.style.css">
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -17,9 +18,9 @@
           <!--criei uma section principal para alterar tudo ao mesmo tempo-->
         <section class="avo">
              <!--article pai, para a primeira parte das informaçoes-->
-            <article>
+            <article id="articlepai">
                 <section class="sect1">
-                    <img src="../../assets/images/skincare.jpg" alt="skincare" width="900" height="400">
+                    <img id="fotos" src="../../assets/images/skincare.jpg" alt="skincare">
                 </section>
                 <section class="sect2">
                     <h2 id="skin2">O que é?</h2>
@@ -118,7 +119,7 @@
             </article>
              <!--article mae, para os comentários e propagandas-->
             <article id="articlemae">
-                <section>
+                <section class="sect5">
                     <div id="divcomentarios1">
                         <h3 id="comentário">Comentário:</h3>
                         <p id="publicado2">Publicado por:</p>
@@ -182,18 +183,15 @@
                     </div>
                     <hr id="linha">
                     <div id="propaganda">
-                        <img src="../../assets/images/propagandaskincare.jfif" alt="propaganda" width="260">
-                        <img src="../../assets/images/propagandaskincare2.webp" alt="propaganda" width="260">
-                    </div>
-                </section>
+                        <img id="imgpropaganda" src="../../assets/images/propagandaskincare.jfif" alt="propaganda" >
+                        <img id="imgpropaganda" src="../../assets/images/propagandaskincare2.webp" alt="propaganda" >
                 </div>
+                </section>
             </article>
-
-
         </section>
     </main>
      <!--foi linkado o footer-->
-    <iframe src="../../layout/footer.html" frameborder="0" width="100%" height="300"></iframe>
+    <iframe id="footer" src="../../layout/footer.html" frameborder="0" width="100%" height="300"></iframe>
 </body>
 
 </html>

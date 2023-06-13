@@ -101,6 +101,60 @@ p{
     text-align: justify;
 }
 
+@media(max-width: 600px){
+    .aaa{
+        text-align: center;
+    }
+    .art1{
+        flex-direction: column;
+        margin-left: 40px;
+       
+    }
+    .card-img{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .sec1{
+        text-align: center;
+        flex-direction: column;
+    }
+    h2{
+        text-align: center;
+        font-size: 22px;
+    }
+    p{
+        text-align: justify;
+    }
+    h1{
+        text-align: center;
+        font-size: 18px;
+    }
+    .pai{
+        flex-direction: column;
+    }
+    .art2{
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .img1{
+        width: 330px;
+    }
+    .img2{
+        width: 330px;
+
+    }
+    .img3{
+        width: 330px;
+    }
+    .img4{
+        width: 330px;
+    }
+    .img5{
+        width: 330px;
+    }
+}
 
 
  

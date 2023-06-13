@@ -4,24 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/cabelo.style.css">
 </head>
 
 <body>
-     <!--foi linkado o header-->
-    <iframe src="../../layout/header.html" frameborder="0" width="100%"></iframe>
+    <!--foi linkado o header-->
     <main>
-         <!--título principal e frase principal-->
+        <!--título principal e frase principal-->
         <h1 id="cabelos">Cabelos</h1>
-        <h2 id="fraseimagem">"O cabelo ideal para o seu rosto é aquele que faz você se sentir bem!"</h2>
-         <!--criei uma section principal para alterar tudo ao mesmo tempo-->
+        <div id="fraseimagemdiv">
+            <h2 id="fraseimagem">"O cabelo ideal para o seu rosto é aquele que faz você se sentir bem!"</h2>
+        </div>
+        <!--criei uma section principal para alterar tudo ao mesmo tempo-->
         <section class="avo">
             <!--article pai, para a primeira parte das informaçoes-->
-            <article id="pai">
+            <article id="articlepai">
                 <section class="sect2">
                     <h2 id="cabelos2">Cabelos Lisos</h2>
                     <div id="div1">
-                        <img src="../../assets/images/cabelo liso.jpg" alt="cabelo" width="390" height="330">
+                        <img id="img2" src="../../assets/images/cabelo liso.jpg" alt="cabelo">
                         <p id="informações">Há quem não abra mão das madeixas naturais e há quem goste de diversificar e
                             modificar, alisando ou enrolando. O que classifica um cabelo liso, com diversos tipos de
                             cabelos,
@@ -29,8 +31,8 @@
                             conhecer um
                             pouco mais sobre as características de cada tipo de cabelo liso.</p>
                     </div>
-                    </section>
-                    <section id="sect3">
+                </section>
+                <section id="sect3">
                     <div class="cuidado">
                         <p id="p2">Cuidados:</p>
 
@@ -52,15 +54,15 @@
                 <section class="sect2">
                     <h2 id="cabelos2">Cabelos Ondulados</h2>
                     <div id="div1">
-                        <img src="../../assets/images/cabelo ondulado.jpg" alt="cabelos" width="390" height="330">
+                        <img id="img1" src="../../assets/images/cabelo ondulado.jpg" alt="cabelos">
                         <p id="informações">Por muito tempo, os cabelos com curvaturas eram considerados todos iguais, e
                             não
                             havia produtos específicos para cada tipo de fio. Hoje, há uma diferenciação mais clara das
                             características dos tipos de cabelo, o que facilita muito na hora de cuidar e de escolher os
                             produtos mais adequados.</p>
                     </div>
-                    </section>
-                    <section id="sect3">
+                </section>
+                <section id="sect3">
                     <div class="cuidado">
                         <p id="p2">Cuidados:</p>
 
@@ -80,7 +82,7 @@
                 <section class="sect2">
                     <h2 id="cabelos2">Cabelos Cacheados</h2>
                     <div id="div1">
-                        <img src="../../assets/images/cabelo cacheado.jpeg" alt="cabelos" width="390" height="330">
+                        <img id="img1" src="../../assets/images/cabelo cacheado.jpeg" alt="cabelos">
                         <p id="informações">Por muito tempo, era comum que as donas de cabelos cacheados passassem por
                             diversos
                             procedimentos para alisar os seus fios, pois o padrão estético “aceitável” era o cabelo
@@ -92,7 +94,7 @@
                             cacheadas, que ajudam a cuidar dos fios e a trabalhar na definição e hidratação.</p>
                     </div>
                 </section>
-                    <section id="sect3">
+                <section id="sect3">
                     <div class="cuidado">
                         <p id="p2">Cuidados:</p>
 
@@ -114,7 +116,7 @@
                 <section class="sect2">
                     <h2 id="cabelos2">Cabelos Crespos</h2>
                     <div id="div1">
-                        <img src="../../assets/images/cabelo crespo.webp" alt="cabelos" width="390" height="330">
+                        <img id="img1" src="../../assets/images/cabelo crespo.webp" alt="cabelos">
                         <p id="informações">O cabelo crespo é o último da tabela de curvatura. Ao contrário dos outros,
                             seu
                             espiral é bem mais fechado, o que faz com que a oleosidade natural do couro cabeludo tenha
@@ -140,7 +142,7 @@
             </article>
             <!--article mae, para os comentários e propagandas-->
             <article id="articlemae">
-                <section>
+                <div class="div4">
                     <div id="divcomentarios1">
                         <h3 id="comentário">Comentário:</h3>
                         <p id="publicado2">Publicado por:</p>
@@ -203,18 +205,17 @@
                         </div>
                     </div>
                     <hr id="linha">
+                </div>
                     <div id="propaganda">
-                        <img src="../../assets/images/propagandacabelo.jpg" alt="propaganda" width="260">
-                        <img src="../../assets/images/propagandacabelo2.jpg" alt="propaganda" width="260">
-                        <img src="../../assets/images/propagandacabelo3.jpg" alt="propaganda" width="260">
+                        <img id="imgpropag" src="../../assets/images/propagandacabelo.jpg" alt="propaganda">
+                        <img id="imgpropag" src="../../assets/images/propagandacabelo2.jpg" alt="propaganda">
+                        <img id="imgpropag" src="../../assets/images/propagandacabelo3.jpg" alt="propaganda">
                     </div>
                     </div>
-                </section>
             </article>
         </section>
     </main>
     <!--foi linkado o footer-->
-    <iframe src="../../layout/footer.html" frameborder="0" width="100%" height="300"></iframe>
 </body>
 
 </html>

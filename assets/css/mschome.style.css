@@ -133,38 +133,254 @@ h3{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     border-left: 4px solid blue;
-   margin: 15px;
+   margin: 47px;
    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+   width: 250px;
+    height: 250px;
+    padding: 0;
 }
 .card_beleza2{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     border-left: 4px solid blue;
-    margin: 15px;
+    margin: 47px;
     -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    width: 250px;
+    height: 250px;
+    padding: 0;
 }
 .card_beleza3{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     border-left: 4px solid blue;
-    margin: 15px;
+    margin: 47px;
     -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    width: 250px;
+    height: 250px;
+    padding: 0;
 }
 .card_beleza4{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     border-left: 4px solid blue;
-    margin: 15px;
+    margin: 47px;
     -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
+    width: 250px;
+    height: 250px;
+    padding: 0;
 }
 #link{
     text-decoration: none;
 }
+@media(max-width: 400px){
+    .avo, #articlepai, #articlemae{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+       
+
+    }
+    #articlepai{
+        text-align: center;
+
+    }
+    #divpublicação2{
+        flex-direction: column;
+        display:inline-block;
+    }
+    #h3divprincipal{
+        font-size: 4vh;
+        margin-left: 25%;
+        margin-right: 14px;
+    }
+    #musicaaa{
+        width: 50%;
+        height: 50%;
+        margin-left: -1%;
+        margin-right: -75px;
+    }
+    #musica{
+        font-size: 2vh;
+        margin-left: 25%;
+        margin-right: 14px;
+    }
+    #imagem1{
+        width: 100%;
+        height: 100%;
+        margin-left: 10%;
+        margin-right: -19px;
+    }
+    #articlemae{
+       padding-bottom: 10%;
+       flex-direction: column;
+       display: inline-block;
+       text-align: center;
+       margin-right: 70%;
+       width: 80%;
+       margin-left: 18%
+
+    }
+    #p3{
+        text-align: justify;
+        font-size: 2vh;
+        margin-right: -20px;
+        margin-left: 28px;
+        
+    }
+    #subnoticias{
+        text-align: center;
+        font-size: 3vh;
+        margin-right: 10%;
+        margin-left: 98px;
+        
+#div-grande-subnews{
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    margin-right: 10%;
+    text-align: justify;
+    margin-left: 60%;
+}
+    }
+ #irnmdn{
+    width: 90%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: -18%;
+    text-align: justify;
+
+ }
+ #lsnt{
+    width: 90%;
+    height: 100%;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: -18%;
+ }
+
+ #crnvl{
+    width: 90%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: -18%;
+    text-align: justify;
+
+ }
+ #subnoticiastext{
+    text-align: justify;
+    font-size: 2vh;
+    margin-right: -15%;
+    margin-left: 10%;
+ }
+ #thweeknd{
+    text-align: justify;
+    width: 90%;
+    height: 30vh;
+    margin-right: 10%;
+    margin-left: 18%;
+	}
+#categorias{
+    text-align: justify;
+    font-size: 3vh;
+    margin-right: -20%;
+    margin-left: 48%;
+}
+
+    #subnoticias2{
+        text-align: justify;
+        font-size: 2vh;
+        margin-right: 100%;
+        margin-left: -100%;
+    }
+    #cards{
+        text-align: justify;
+        width: 25%;
+        display: inline-block;
+        height: 100%;
+        margin-left: -60%;
+  
+    }
+  
+
+.card_beleza1{
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    text-align: justify;
+}
+#subnoticiastext2{
+    text-align: justify;
+    font-size: 15px;
+    padding: 7px;
+    margin-left: 25px;
+    margin-right: -28px;
+}
+#rxxt{
+    text-align: justify;
+    width: 90%;
+    height: 100%;
+    margin-right: -28px;
+    margin-left: 28px;   
+}
+#veighbaby{
+    width: 90%;
+    height: 70%;
+    margin-right: -70%;
+    margin-left: -60%; 
+}
+#spotify{
+    width: 90%;
+    height: 70%;
+    margin-right: -70%;
+    margin-left: -60%; 
+
+}
+#mainn{
+    width: 80%;
+    height: 100%;
+}
+#bllelsh{
+    width: 90%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: -18%;
+    text-align: justify;
+}
+#rapha{
+    text-align: center;
+    margin-left: -20px;
+}
+#hora{
+    text-align: center;
+    margin-left: 35px;
+
+}
+#publicado2 {
+    text-align: center;
+    margin-left: 30px;
+}
+#comentário{
+    text-align: center;
+    margin-left: 35px;
+}
+#ncl{
+    text-align: center;
+    margin-left: 5px;
+}
+#coment{
+    text-align: center;
+    margin-left: 35px;
+}
+
+}
+
+

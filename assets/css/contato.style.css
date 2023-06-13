@@ -102,7 +102,7 @@ body {
         width: 30vh;
         height: 35vh;
         display: inline-block;
-        margin-left: 14px;
+        margin-left: 25px;
         margin-right: -19px;
         margin-top: 40px;
     }
@@ -121,6 +121,9 @@ body {
     }
 
 .card-header::after{
+    display: none;
+}
+.recuperar_senha{
     display: none;
 }
     

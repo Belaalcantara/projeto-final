@@ -279,6 +279,7 @@ img{
     }
     #pai1{
         flex-direction: column;
+        width: 80%;
     }
     #div-principal{
         width: 400px;
@@ -289,22 +290,19 @@ img{
         width: 350px;
     }
     .div-grande{
-        margin-right: 30px;
-        width: 300px;
-        margin-right: 50px;
+        width: 95%;
 
     }
     .tio{
         flex-direction: column;
-        width: 50px;
+        width: 40px;
+        margin-left: 6px;
     }
     #div-grande-subnews{
         flex-direction: column;
-        width: 200px;
-        height: 180px;
-        margin-right: 80px;
+        width: 70%;
+        height: 60%;
         text-align: center;
-        margin-left: 60px;
     }
     #tia{
         flex-direction: column;
@@ -361,7 +359,7 @@ img{
         text-align: justify;
     }
     .a-main{
-        width: 370px;
+        width: 350px;
     }
     .img-comotreidragao{
         text-align: center;

@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -142,4 +142,60 @@ button {
     flex-direction: column;
     display: inline-block;    
 }
+} */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 40px;
+}
+input[type="checkbox"]
+{
+    display: none;
+
+} 
+nav{
+    background-color:rgb(5, 5, 41);
+    width: 350px;
+    height: 100vh;
+    left: -350px; 
+    top: 0;
+    transition: transform 0.3s ease;
+    position: fixed;    
+}
+   input[type="checkbox"]:checked + label + nav
+{
+    transform: translateX(350px);
+}    
+ul{
+    top: 70px;
+    position: absolute;
+    width: 350px;
+}
+a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+a:hover{
+    background-color:rgb(168,168,207);
+    color: black;
+}
+label{
+    padding: 15px;
+    position: absolute;
+    cursor: pointer;
 }

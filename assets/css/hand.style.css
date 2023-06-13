@@ -34,6 +34,8 @@ a {
 .imagem {
     text-align: center;
     position: relative;
+    width: 360px;
+    height: 250;
 }
 
 .hand {
@@ -53,4 +55,37 @@ a {
     background-color: white;
     margin: 15px 15px;
     line-height: 36px;
+}
+@media(max-width: 600px){
+    p {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin: 53px 53px;
+    }
+
+    #hand {
+        margin-top: 40px;
+        margin-left: 90px;
+        width: 250px;
+        height: 150px;
+    }
+
+    #hand2 {
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 250px;
+        height: 150px;
+    }
+    
+    #conteudo {
+        background-color: white;
+        margin: 15px 1px;
+        line-height: 36px;
+    }
+    #origem{
+        display: flex;
+        flex-direction: column;
+    }
 }

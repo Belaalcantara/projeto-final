@@ -5,7 +5,7 @@ body {
 }
 
 #footer {
-    margin-bottom: -15px;
+    margin-bottom: -15px; 
 }
 
 h1 {
@@ -59,3 +59,51 @@ h2 {
     margin: 15px 15px;
     line-height: 36px;
 }
+
+#fut2{
+    margin-left: 30px;
+}
+
+@media(max-width: 600px){
+    p {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin: 53px 53px;
+    }
+
+    #fut2 {
+        margin-top: 40px;
+        margin-left: 80px;
+        width: 250px;
+        height: 150px;
+    }
+
+    #fut1 {
+        margin-top: 40px;
+        margin-left: 25px 25px;
+        width: 250px;
+        height: 150px;
+    }
+    
+    #conteudo {
+        background-color: white;
+        margin: 15px 1px;
+        line-height: 36px;
+    }
+    #origem{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2{
+      margin: 50px 50px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+}
+
+

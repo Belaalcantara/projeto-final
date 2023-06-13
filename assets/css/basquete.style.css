@@ -59,3 +59,45 @@ h2 {
     margin: 15px 15px;
     line-height: 36px;
 }
+
+#basquete2{
+    margin-left: 20px;
+}
+
+@media(max-width: 600px){
+    p {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin: 53px 53px;
+    }
+
+    #basquete2 {
+        margin-top: 40px;
+        margin-left: 56px;
+        width: 300px;
+        height: 200px;
+    }
+
+    #basquete1 {
+        margin-top: 40px;
+        margin-left: 25px 25px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    #conteudo {
+        background-color: white;
+        margin: 15px 1px;
+        line-height: 36px;
+    }
+    #origem{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2{
+      margin: 50px 50px;
+    }
+}

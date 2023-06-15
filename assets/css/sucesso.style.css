@@ -19,7 +19,7 @@ body{
 }
 @media(max-width: 600px){
     #crt{
-        width: 70%;
+        width: 75%;
         height: 70%;
     }
 

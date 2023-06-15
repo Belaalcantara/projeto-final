@@ -219,7 +219,7 @@ h3{
 
     #imagem2 {
         width: 30vw;
-        height: 40vh;
+        height: 25vh;
     }
     #div2{
         display: flex;
@@ -240,7 +240,7 @@ h3{
     }
     #p1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 22px;
         margin-left: 3%;
         padding: 3px;
     }

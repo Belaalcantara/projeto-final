@@ -403,7 +403,7 @@ h3 {
     margin-left: 2%;
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px){
     .avo, #articlepai, #articlemae{
         flex-direction: column;
         width: 100%;

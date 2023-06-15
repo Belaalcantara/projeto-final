@@ -1,3 +1,4 @@
+
 body {
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -214,7 +215,7 @@ h2 {
     }
 
     #unha{
-        font-size: 38px;
+        font-size: 35px;
         color: rgb(0, 0, 0);
     }
 
@@ -286,18 +287,18 @@ h2 {
     }
 
     #imgpropag {
-        width: 80vw;
+        width: 94vw;
         text-align: center;
     }
     #p1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
         margin-left: 1%;
         padding: 1px;
     }
     #p2{
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 3%;
         padding: 5px;
     }
@@ -313,8 +314,8 @@ h2 {
         font-size: 15px;
     }
     #coment {
-        margin-left: 5px;
-        font-size: 19px;
+        font-size: 15px;
+
     }
     #like {
         display: flex;
@@ -331,9 +332,7 @@ h2 {
     h3{
         font-size: 18px;
     }
-
-    #make2 {
-        font-size: 25px;
-        margin-left: 5%;
+    #unha2{
+        font-size: 22px;
     }
 }

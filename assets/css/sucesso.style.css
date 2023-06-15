@@ -19,8 +19,12 @@ body{
 }
 @media(max-width: 600px){
     #crt{
-        width: 75%;
+        width: 55%;
         height: 70%;
+    }
+    body{
+        width: 99%;
+        height: 100%;
     }
 
 }

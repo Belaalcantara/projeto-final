@@ -195,6 +195,7 @@ color: rgb(255, 255, 255);
     height: 300px;
 }
 @media(max-width: 100vh){
+@media(max-width: 600px){
     h1{
         text-align: center;
         font-family: Lucida Handwriting;
@@ -266,5 +267,29 @@ color: rgb(255, 255, 255);
     .card-footer1{
         text-align: center;
         width: 100%;
+    }    #vr{
+        width: 350px;
+        height: 90%;
     }
-}
+    #vr2{
+        width: 350px;
+        height: 90%;
+    }
+    #vr3{
+        width: 350px;
+        height: 90%;
+    }
+    #vr4{
+        width: 350px;
+        height: 90%;
+
+    }
+    #vr5{
+        width: 350px;
+        height: 90%;
+
+    } 
+  #vr6{
+    width: 350px;
+    height: 90%;
+  }

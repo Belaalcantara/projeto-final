@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,7 +42,7 @@ img {
 }
 
 ul {
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 .menu li a:hover {

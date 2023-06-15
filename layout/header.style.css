@@ -180,15 +180,17 @@ nav{
 {
     transform: translateX(350px);
 }    
-ul{
+.dropdown-menu{
     top: 70px;
     position: absolute;
     width: 350px;
+
 }
 a{
     display: block;
     padding: 20px 5px;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 a:hover{
     background-color:rgb(168,168,207);
@@ -198,4 +200,33 @@ label{
     padding: 15px;
     position: absolute;
     cursor: pointer;
+}
+.dropdown{
+    background-color: rgb(25, 17, 65);
+    margin: 0;
+    padding-top: 0%;
+    height: 70px;
+}
+.dropdown-toggle{
+    display: none;
+}
+#logo{
+    margin-left:50%;
+}
+
+.btn-secondary {
+    background-color: rgb(25, 17, 65);
+
+}
+#menuft{
+    width: 65px;
+}
+span{
+    margin-left:600px ;
+font-family: 'Castoro', serif;
+font-size: 30px;
+margin-top: 0;
+padding-top: 0%;
+color: rgb(255, 255, 255);
+
 }

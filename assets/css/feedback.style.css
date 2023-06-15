@@ -87,5 +87,8 @@ input:focus{
         font-size: 16px;
         color: white;
     }
-
+body{
+    width: 98%;
+    height: 10%;
+}
 }

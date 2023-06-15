@@ -60,3 +60,14 @@ footer{
 .imagem{
     text-align: center;
 }
+@media(max-width: 600px){
+    #tl{
+        text-align: center;
+        font-size: 30px;
+    }
+    #par{
+        text-align: center;
+        font-size: 13px;
+    }
+  
+}

@@ -269,9 +269,7 @@ h3 {
             flex-direction: column;
         }
 
-        #fotos {
-            border-radius: 100%;
-        }
+        
 
         #fotos2 {
             width: 5vw;
@@ -285,7 +283,7 @@ h3 {
         }
 
         #imgpropag {
-            width: 70vw;
+            width: 99vw;
             text-align: center;
         }
 

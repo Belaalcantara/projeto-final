@@ -1,5 +1,4 @@
-    function abrir(){
-        alert("ola");
-        document.getElementsByClassName("menu").style.width = '250px';
-    }
-  
+function menuShow() {
+    var ul = document.querySelector('nav ul');
+    ul.classList.toggle('open');
+}

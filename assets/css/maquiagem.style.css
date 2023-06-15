@@ -218,8 +218,8 @@ h3{
     }
 
     #imagem2 {
-        width: 30vw;
-        height: 40vh;
+        width: 32vw;
+        height: 25vh;
     }
     #div2{
         display: flex;
@@ -235,18 +235,18 @@ h3{
     }
 
     #imgpropag {
-        width: 80vw;
+        width: 95vw;
         text-align: center;
     }
     #p1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
         margin-left: 3%;
         padding: 3px;
     }
     #p2{
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 3%;
         padding: 5px;
     }
@@ -263,7 +263,7 @@ h3{
     }
     #coment {
         margin-left: 5px;
-        font-size: 19px;
+        font-size: 15px;
     }
     #like {
         display: flex;
@@ -282,7 +282,7 @@ h3{
     }
 
     #make2 {
-        font-size: 25px;
+        font-size: 22px;
         margin-left: 5%;
     }
 }

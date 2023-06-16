@@ -137,6 +137,11 @@ h1{
         text-align: center;
         margin-left: auto;
     }
+    .card-titulo{
+        margin-left: -20px;
+        margin-right: -90px;
+        text-align: center;
+    }
    
 }
 

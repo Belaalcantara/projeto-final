@@ -324,6 +324,13 @@ color: rgb(255, 255, 255);
 }
 
 @media(max-width: 600px){
+    #header{
+        height: 400px;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
     #mae{
         padding-bottom: 10px;
         flex-direction: column;

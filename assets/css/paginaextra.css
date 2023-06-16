@@ -128,12 +128,27 @@
     }
 
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        #header{
+            height: 400px;
+            width: 100%;
+        }
+        #footer{
+            width: 100%;
+        }
         .price {
             width: 970px;
         }
     }
 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+        #header{
+            height: 400px;
+            width: 100%;
+        }
+        #footer{
+            width: 100%;
+        }
         .price {
             width: 750px;
         }
@@ -153,6 +168,13 @@
         .single-price {
             width: 100%;
             margin-bottom: 30px;
+        }
+        #header{
+            height: 400px;
+            width: 100%;
+        }
+        #footer{
+            width: 100%;
         }
     
         #footer {

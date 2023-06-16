@@ -276,6 +276,13 @@ color: rgb(255, 255, 255);
 }
 
 @media(max-width: 700px) {
+    #header{
+        height: 400px;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
 
     body{
         padding: 0;

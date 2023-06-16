@@ -66,6 +66,13 @@ a {
 }
 
 @media (max-width: 600px) {
+  #header{
+    height: 400px;
+    width: 100%;
+}
+#footer{
+    width: 100%;
+}
   .pai {
     display: flex;
     margin-bottom: 30px;

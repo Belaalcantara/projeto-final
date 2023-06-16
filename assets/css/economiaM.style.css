@@ -243,7 +243,13 @@ p {
 
 @media(max-width: 700px) {
 
-
+    #header{
+        height: 400px;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
     #avo {
         display: inline-block;
         background-color: rgb(255, 255, 255);

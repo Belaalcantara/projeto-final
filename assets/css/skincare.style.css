@@ -191,6 +191,13 @@ h4 {
     width: 260px
 }
 @media (max-width: 600px) {
+    #header{
+        height: 400px;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
 
     .avo,
     #articlepai,

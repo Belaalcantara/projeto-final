@@ -139,6 +139,13 @@ color: rgb(255, 255, 255);
     height: 300px;
 }
 @media(max-width: 600px){
+    #header{
+        height: 400px;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
     .aaa{
         text-align: center;
     }

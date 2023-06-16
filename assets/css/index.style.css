@@ -297,7 +297,7 @@ color: rgb(255, 255, 255);
 
 }
 
-@media(max-width: 600px){
+@media(max-width: 450px){
     #header{
         height: 400px;
     }
@@ -307,24 +307,24 @@ color: rgb(255, 255, 255);
         display: inline-block;
         text-align: center;
         margin-right: 20px;
-        width: 400px;
+        width: 300px;
         margin-left: 7px;
 
     }
     #pai1{
         flex-direction: column;
-        width: 80%;
+        width: 70%;
     }
     #div-principal{
-        width: 400px;
+        width: 350px;
         margin-left: 4px;
         margin-right: 2px;
     }
     #img-mariele{
-        width: 350px;
+        width: 300px;
     }
     .div-grande{
-        width: 95%;
+        width: 85%;
 
     }
     .tio{
@@ -341,7 +341,7 @@ color: rgb(255, 255, 255);
     #tia{
         flex-direction: column;
         display: inline-block;
-        width: 420px;
+        width: 370px;
     }
     body{
         padding-bottom: 10px;
@@ -350,7 +350,7 @@ color: rgb(255, 255, 255);
 
     }
     #banner_final{
-        width: 400px;
+        width: 350px;
         height: 260px;
         margin-left: 0;
         margin-right: 0;
@@ -359,7 +359,7 @@ color: rgb(255, 255, 255);
     #avo{
         display: inline-block;
         margin-left: 10px;
-        width: 420px;
+        width: 370px;
     }
     #h3-divgrande{
         text-align: justify;
@@ -393,7 +393,7 @@ color: rgb(255, 255, 255);
         text-align: justify;
     }
     .a-main{
-        width: 350px;
+        width: 300px;
     }
     .img-comotreidragao{
         text-align: center;

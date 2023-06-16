@@ -300,6 +300,10 @@ color: rgb(255, 255, 255);
 @media(max-width: 450px){
     #header{
         height: 400px;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
     }
     #mae{
         padding-bottom: 10px;
@@ -401,23 +405,23 @@ color: rgb(255, 255, 255);
     }
     #img-sesi{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     #img-netflix{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     #img-bolsonaro{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     #img-drone{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .ultima{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 30px;
     
     }
 

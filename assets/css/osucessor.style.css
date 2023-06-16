@@ -160,6 +160,13 @@ h1{
 }
 
 @media(max-width: 600px){
+    #header{
+        height: 400px;
+        width: 100%;
+    }
+    #footer{
+        width: 100%;
+    }
     h1{
         text-align: center;
         font-family: Lucida Handwriting;

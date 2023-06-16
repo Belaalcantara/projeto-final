@@ -296,8 +296,11 @@ padding-top: 0%;
 color: rgb(255, 255, 255);
 
 }
+
 @media(max-width: 600px){
-    
+    #header{
+        height: 400px;
+    }
     #mae{
         padding-bottom: 10px;
         flex-direction: column;

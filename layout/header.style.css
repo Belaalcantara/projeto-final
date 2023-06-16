@@ -69,6 +69,7 @@ nav .menu-btn{
     }
     nav ul.open{
         left: 0;
+        height: 350px;
     }
     nav ul list-style{
         width: 100%;

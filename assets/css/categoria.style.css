@@ -132,6 +132,8 @@ h1{
 }
     h1{
         text-align: center;
+        text-align: center;
+        align-items: center;
     }
     h2{
         text-align: center;

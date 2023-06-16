@@ -106,6 +106,7 @@ p{
     text-align: justify;
 }
 
+
 @media(max-width: 600px){
     .aaa{
         text-align: center;

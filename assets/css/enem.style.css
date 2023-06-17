@@ -323,8 +323,7 @@ color: rgb(255, 255, 255);
     height: 300px;
 }
 
-@media(max-width: 450px){
-
+@media(max-width: 600px){
     #header{
         height: 400px;
         width: 100%;
@@ -332,16 +331,13 @@ color: rgb(255, 255, 255);
     #footer{
         width: 100%;
     }
-    #divcomentarios1{
-        width: 250px;
-    }
     #mae{
         padding-bottom: 10px;
         flex-direction: column;
         display: inline-block;
         text-align: center;
         margin-right: 20px;
-        width: 320px;
+        width: 380px;
         margin-left: 12px;
 
     }
@@ -352,7 +348,7 @@ color: rgb(255, 255, 255);
         margin-right: 20px;
     }
     #div-principal{
-        width: 320px;
+        width: 370px;
         margin-left: 4px;
         margin-right: 2px;
     }
@@ -378,7 +374,7 @@ color: rgb(255, 255, 255);
     #tia{
         flex-direction: column;
         display: inline-block;
-        width: 320px;
+        width: 390px;
     }
     body{
         padding-bottom: 10px;
@@ -402,40 +398,38 @@ color: rgb(255, 255, 255);
         text-align: justify;
     }
     #img-1{
-        width: 290px;
+        width: 330px;
     }
     #img-2{
-        width: 250px;
+        width: 300px;
         margin-left: 10px;
     }
     #img-3{
-        width:250px ;
+        width:300px ;
         margin-left: 10px;
     }
     #img-drone{
         text-align: center;
-        margin-left: 20px;
-        width: 250px;
+        margin-left: 40px;
     }
     #img-bolsonaro{
         text-align: center;
-        margin-left: 20px;
-        width: 250px;
+        margin-left: 40px;
     }
     #img-netflix{
         text-align: center;
-        margin-left: 20px;
-        width: 250px;
+        margin-left: 40px;
     }
     #img-sesi{
         text-align: center;
-        width: 250px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
     #img-comotreidragao{
         text-align: center;
-        width: 250px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
- 
+    .ultima{
+        text-align: center;
+        margin-left: 40px;
+    }
 }

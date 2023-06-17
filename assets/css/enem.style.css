@@ -332,13 +332,16 @@ color: rgb(255, 255, 255);
     #footer{
         width: 100%;
     }
+    #divcomentarios1{
+        width: 250px;
+    }
     #mae{
         padding-bottom: 10px;
         flex-direction: column;
         display: inline-block;
         text-align: center;
         margin-right: 20px;
-        width: 380px;
+        width: 320px;
         margin-left: 12px;
 
     }
@@ -349,7 +352,7 @@ color: rgb(255, 255, 255);
         margin-right: 20px;
     }
     #div-principal{
-        width: 370px;
+        width: 320px;
         margin-left: 4px;
         margin-right: 2px;
     }
@@ -375,7 +378,7 @@ color: rgb(255, 255, 255);
     #tia{
         flex-direction: column;
         display: inline-block;
-        width: 390px;
+        width: 320px;
     }
     body{
         padding-bottom: 10px;
@@ -399,35 +402,40 @@ color: rgb(255, 255, 255);
         text-align: justify;
     }
     #img-1{
-        width: 330px;
+        width: 290px;
     }
     #img-2{
-        width: 300px;
+        width: 250px;
         margin-left: 10px;
     }
     #img-3{
-        width:300px ;
+        width:250px ;
         margin-left: 10px;
     }
     #img-drone{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 20px;
+        width: 250px;
     }
     #img-bolsonaro{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 20px;
+        width: 250px;
     }
     #img-netflix{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 20px;
+        width: 250px;
     }
     #img-sesi{
         text-align: center;
-        margin-left: 40px;
+        width: 250px;
+        margin-left: 10px;
     }
     #img-comotreidragao{
         text-align: center;
-        margin-left: 40px;
+        width: 250px;
+        margin-left: 10px;
     }
  
 }

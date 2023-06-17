@@ -300,10 +300,10 @@ color: rgb(255, 255, 255);
 @media(max-width: 450px){
     #header{
         height: 400px;
-        width: 100%;
+        width: 105%;
     }
     #footer{
-        width: 100%;
+        width: 105%;
     }
     #mae{
         padding-bottom: 10px;

@@ -118,9 +118,8 @@ p {
 
 #img-netflix {
 
-    width: 350px;
+    width: 300px;
 
-    width: 150px;
 
 }
 
@@ -271,11 +270,9 @@ padding-top: 0%;
 color: rgb(255, 255, 255);
 
 }
-#header{
-    height: 300px;
-}
 
-@media(max-width: 700px) {
+
+@media(max-width: 600px) {
     #header{
         height: 400px;
         width: 100%;
@@ -308,11 +305,7 @@ color: rgb(255, 255, 255);
 
     }
 
-    #mae{
-
-        width: 100%;
-        background-color: #ffffff;
-    }
+    
 
 
     img {
@@ -419,6 +412,16 @@ color: rgb(255, 255, 255);
         width: 15vw !important;
         height: 5vh;
      }
+     #mae{
+        padding-bottom: 10px;
+        flex-direction: column;
+        display: inline-block;
+        text-align: center;
+        margin-right: 10px;
+        width: 300px;
+        margin-left: 20px;
+
+    }
  }
 
 

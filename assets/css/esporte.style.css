@@ -66,6 +66,9 @@ a {
 }
 
 @media (max-width: 600px) {
+ article{
+  width: 50px;
+ }
   #header{
     height: 400px;
     width: 100%;
@@ -105,8 +108,9 @@ a {
   .video {
     flex-direction: column;
     display: inline-block;
-    width: 70%;
+    width: 30px;
     padding-left: 50px;
+
   }
 
 

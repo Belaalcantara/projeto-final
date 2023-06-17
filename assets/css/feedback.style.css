@@ -54,10 +54,10 @@ input:focus{
 @media(max-width: 600px){
     #header{
         height: 400px;
-        width: 100%;
+        width: 105%;
     }
     #footer{
-        width: 100%;
+        width: 105%;
         height: 250px;
     }
 .single-input{

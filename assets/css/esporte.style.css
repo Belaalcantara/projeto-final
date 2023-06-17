@@ -96,8 +96,7 @@ a {
     display: flex;
     text-align: justify;
     flex-direction: column;
-    width: 380x;
-    padding-left: 30px;
+    width: 300px;
     margin: auto;
     align-items: stretch;
     justify-content: space-around;
@@ -109,19 +108,16 @@ a {
     flex-direction: column;
     display: inline-block;
     width: 30px;
-    padding-left: 50px;
-
   }
 
 
   .paragrafo {
-    width: 380px;
+    width: 320px;
     padding-left: 0;
     margin: 0px;
     padding: 0px;
     font-size: 20px;
     text-align: justify;
-    justify-content: center;
     margin-bottom: 20px;
   }
 
@@ -170,7 +166,7 @@ a {
   #jogos{
     font-size: 20px;
     text-align: justify;
-    padding-left: 50px;
+    padding-left: 10px;
     width: 90vw;
     
   }

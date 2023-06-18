@@ -128,7 +128,9 @@ function atualizarlista() {
     <p>Descrição: ${arrayAux[2]}</p>
     <p>Autor: ${arrayAux[3]}</p>
     </div>
+    <div id=b1>
     <button id="botao"type="button" onclick="deletar(${i})"><img id="fotinha"src=https://cdn-icons-png.flaticon.com/512/126/126468.png width="18px" height="20px"></button>
+    </div>
     </li>
     `
 

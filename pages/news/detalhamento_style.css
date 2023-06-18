@@ -314,9 +314,8 @@ h4 {
         flex-direction: column;
     }
 
-    #fotos {
-        width: 90vw;
-        height: 40vh;
+    #fotos{
+        width: 100px;
     }
     #fotos2{
         width: 5vw;

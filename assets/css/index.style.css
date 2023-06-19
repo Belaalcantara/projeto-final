@@ -298,6 +298,13 @@ color: rgb(255, 255, 255);
 }
 
 @media(max-width: 450px){
+
+    body{
+        padding: 0;
+        margin: 0;
+
+    }
+
     #header{
         height: 400px;
         width: 105%;
@@ -318,6 +325,7 @@ color: rgb(255, 255, 255);
     #pai1{
         flex-direction: column;
         width: 70%;
+        padding: 0%;
     }
     #div-principal{
         width: 330px;
@@ -343,6 +351,7 @@ color: rgb(255, 255, 255);
         width: 70%;
         height: 60%;
         text-align: center;
+        
     }
     #tia{
         flex-direction: column;
@@ -356,10 +365,11 @@ color: rgb(255, 255, 255);
 
     }
     #banner_final{
-        width: 350px;
-        height: 260px;
+        width: 340px;
+        height: 255px;
         margin-left: 5px;
         margin-right: 5px;
+        border-radius: 2px;
         
     }
     #avo{

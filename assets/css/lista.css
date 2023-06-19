@@ -90,14 +90,20 @@ h1{
     font-size: 45px;
 }
 article{
-    background-color: rgb(233, 230, 227);
+    background-color: rgb(13, 16, 61);
     border-radius: 12px;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
     padding: 30px;
     padding-bottom: 10px;
     width: 900px;
     margin-left: 200px;
     margin-bottom: 40px;
+    -webkit-box-shadow: 11px 13px 20px 1px rgba(47,24,97,1);
+-moz-box-shadow: 11px 13px 20px 1px rgba(47,24,97,1);
+box-shadow: 11px 13px 20px 1px rgba(47,24,97,1);
+color: white;
+    
+
 }
 #footer{
     height: 40vh;
@@ -134,12 +140,13 @@ article{
         margin-left: 50px;
     }
     article{
-        background-color: rgb(233, 230, 227);
+        background-color: rgb(13, 16, 61);
         border-radius: 12px;
         box-shadow: 0px 0px 20px black;
         width: 250px;
         height: 50vh;
         margin-left: 50px;
+       
        
     }
     

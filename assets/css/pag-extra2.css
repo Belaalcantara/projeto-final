@@ -198,9 +198,7 @@ body {
 
     }
     
-    .radio:checked+label{
-
-    }
+    
     .name:focus+.icon{
         width: 10vw;
         height: 7vh;

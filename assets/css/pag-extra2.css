@@ -166,14 +166,15 @@ body {
         width: 97vw;
         margin-left: 5px;
         margin-right: 5px;
-        background-color: ;
+       
     }
-    header{
+    #header{
         width: 100%;
+        height: 400px;
     }
     .input_box{
         background-color: rgb(255, 255, 255);
-        width: 60vw;
+        
     }
 
     .input_group{

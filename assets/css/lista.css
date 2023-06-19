@@ -51,21 +51,24 @@ h1 {
 }
  */
 
- #header{
+#header {
     width: 100%;
 }
-#footer{
+
+#footer {
     width: 100%;
 }
- body{
+
+body {
     background-color: aliceblue;
     margin: 0;
 }
-#div1{
+
+#div1 {
     height: 350px;
 }
 
-.cardItem{
+.cardItem {
     background-color: rgb(233, 230, 227);
     border-radius: 12px;
     box-shadow: 0px 0px 20px black;
@@ -76,20 +79,23 @@ h1 {
     width: 900px;
     margin-bottom: 40px;
 }
-#b1{
+
+#b1 {
     margin-left: 850px;
 }
 
-.fotinha{
+.fotinha {
     width: 18px;
     height: 20px;
-   
+
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 45px;
 }
-article{
+
+article {
     background-color: rgb(13, 16, 61);
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgb(255, 255, 255);
@@ -98,74 +104,114 @@ article{
     width: 900px;
     margin-left: 200px;
     margin-bottom: 40px;
-    -webkit-box-shadow: 11px 13px 20px 1px rgba(47,24,97,1);
--moz-box-shadow: 11px 13px 20px 1px rgba(47,24,97,1);
-box-shadow: 11px 13px 20px 1px rgba(47,24,97,1);
-color: white;
-    
+    -webkit-box-shadow: 11px 13px 20px 1px rgba(47, 24, 97, 1);
+    -moz-box-shadow: 11px 13px 20px 1px rgba(47, 24, 97, 1);
+    box-shadow: 11px 13px 20px 1px rgba(47, 24, 97, 1);
+    color: white;
+
 
 }
-#footer{
+
+#footer {
     height: 40vh;
 }
-#botao{
+
+#botao {
     color: rgb(255, 255, 255);
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 
-@media(max-width: 600px){
-    #header{
+@media(max-width: 600px) {
+    #header {
         height: 400px;
         width: 100%;
     }
-    #footer{
+
+    #footer {
         width: 100%;
         height: 290px;
         position: absolute;
         margin-bottom: 0;
     }
-    #botao{
+
+    #botao {
         color: rgb(255, 255, 255);
-        border-radius: 5px; 
+        border-radius: 5px;
     }
-    #b1{
+
+    #b1 {
         margin-left: 200px;
     }
-    .cardItem{
+
+    .cardItem {
         background-color: rgb(233, 230, 227);
         border-radius: 12px;
         box-shadow: 0px 0px 20px black;
         width: 250px;
         margin-left: 50px;
     }
-    article{
+
+    article {
         background-color: rgb(13, 16, 61);
         border-radius: 12px;
         box-shadow: 0px 0px 20px black;
-        width: 250px;
-        height: 50vh;
-        margin-left: 50px;
-       
-       
+        width: 80vw;
+        height: 62vh;
+        margin-left: 10px;
+
+
     }
-    
-    body{
+
+    body {
         width: 100%;
         height: 100%;
     }
-    h1{
+
+    h1 {
         text-align: center;
-        font-size: 45px;
+        font-size: 50px;
     }
-    #titulo{
-        width: 22vw;
+
+    #titulo {
+        width: 60vw;
+        margin-top: 0px;
     }
-    #descricao{
-        width: 22vw;
+
+    #descricao {
+        width: 60vw;
     }
-    #autor{
-        width: 22vw;
+
+    #autor {
+        width: 60vw;
+        margin-bottom: 15px;
+
     }
+
+    #data {
+        width: 60vw;
+
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+
+    .cardItem {
+        background-color: rgb(182, 185, 224);
+        border-radius: 12px;
+        box-shadow: 0px 0px 20px black;
+        width: 80vw;
+       padding: auto;
+        margin-left: 10px;
+    }
+    #b1{
+        margin-bottom: 70px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+     
 
 }

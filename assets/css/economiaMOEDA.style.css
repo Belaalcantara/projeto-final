@@ -19,12 +19,12 @@ h2 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
 }
 
 .sect2 {
     text-align: center;
-
     background-color: rgb(249, 252, 255);
     text-align: center;
     margin-right: 18px;

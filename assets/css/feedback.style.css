@@ -44,7 +44,7 @@ input{
 }
 input:focus{
     border-radius: 10px;
-    background-color: rgb(114, 117, 165);
+    background-color: rgb(24, 30, 110);
 }
 .titulo{
     font-family: 'Prata', serif;
@@ -63,7 +63,7 @@ input:focus{
 .single-input{
         width: 50px;
         height: 90px;
-        margin-left: -110px;
+        margin-left: -120px;
         margin-right: -100px;
     }
 .feedback{

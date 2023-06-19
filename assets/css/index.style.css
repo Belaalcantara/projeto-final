@@ -6,7 +6,7 @@ body {
 
 #div-principal {
     display: flex;
-    background-color: rgb(14, 14, 15);
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
     border-left: 10px solid rgb(177, 31, 31);
     margin-right: 15px;
@@ -298,6 +298,13 @@ color: rgb(255, 255, 255);
 }
 
 @media(max-width: 450px){
+
+    body{
+        padding: 0;
+        margin: 0;
+
+    }
+
     #header{
         height: 400px;
         width: 105%;
@@ -313,19 +320,23 @@ color: rgb(255, 255, 255);
         margin-right: 10px;
         width: 300px;
         margin-left: 20px;
+        background-color: white';
 
     }
     #pai1{
         flex-direction: column;
-        width: 70%;
+        width: 100%;
+        padding: 6px ;
     }
     #div-principal{
-        width: 350px;
-        margin-left: 4px;
+        width: 330px;
+        height: 350px;
+        margin-left: 2px;
         margin-right: 2px;
     }
     #img-mariele{
-        width: 300px;
+        width: 290px;
+        height: 240px;
     }
     .div-grande{
         width: 85%;
@@ -341,6 +352,7 @@ color: rgb(255, 255, 255);
         width: 70%;
         height: 60%;
         text-align: center;
+        
     }
     #tia{
         flex-direction: column;
@@ -354,10 +366,11 @@ color: rgb(255, 255, 255);
 
     }
     #banner_final{
-        width: 350px;
-        height: 260px;
+        width: 340px;
+        height: 255px;
         margin-left: 5px;
         margin-right: 5px;
+        border-radius: 2px;
         
     }
     #avo{

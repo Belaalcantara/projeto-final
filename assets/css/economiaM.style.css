@@ -24,15 +24,11 @@ h2 {
 
 .sect2 {
     text-align: center;
-    -webkit-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
-    box-shadow: 11px 10px 20px -3px rgba(0, 0, 0, 0.75);
-    background-color: rgb(249, 252, 255);
     text-align: center;
     margin-right: 18px;
     margin-left: 13px;
     border-radius: 5px;
-    border-left: 4px solid rgb(177, 31, 31);
+    border-left: 4px solid rgb(14, 2, 70);
 
 }
 
